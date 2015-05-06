@@ -26,6 +26,7 @@
 /Users/ua4225pe/Projects/mnsuse/iOS/obj/iPhone/Debug/Icon-Small-40.png
 /Users/ua4225pe/Projects/mnsuse/iOS/obj/iPhone/Debug/Icon-Small-40@2x.png
 /Users/ua4225pe/Projects/mnsuse/iOS/obj/iPhone/Debug/Icon-Small-40@3x.png
+/Users/ua4225pe/Projects/mnsuse/iOS/obj/iPhone/Debug/horizontal-black.png
 /Users/ua4225pe/Projects/mnsuse/iOS/bin/iPhone/Debug/mnsuse.iOS.exe.mdb
 /Users/ua4225pe/Projects/mnsuse/iOS/bin/iPhone/Debug/mnsuse.iOS.exe
 /Users/ua4225pe/Projects/mnsuse/iOS/obj/iPhone/Debug/mnsuse.iOS.exe

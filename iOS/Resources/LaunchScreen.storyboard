@@ -16,11 +16,25 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" id="46" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" image="horizontal-black.png">
-                                <rect key="frame" x="57" y="292" width="500" height="44"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" id="35" translatesAutoresizingMaskIntoConstraints="NO" image="horizontal-black.png">
+                                <rect key="frame" x="150" y="287" width="300" height="26"/>
+                                <constraints>
+                                    <constraint id="46" firstItem="35" firstAttribute="height" constant="26"/>
+                                    <constraint id="47" firstItem="35" firstAttribute="width" constant="300"/>
+                                </constraints>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" colorSpace="calibratedWhite" white="1" alpha="1"/>
+                        <rect key="contentStretch" x="0.0" y="0.0" width="0.0" height="0.0"/>
+                        <variation key="heightClass=compact-widthClass=compact">
+                            <mask key="constraints">
+                                <include reference="52"/>
+                            </mask>
+                        </variation>
+                        <constraints>
+                            <constraint firstItem="35" firstAttribute="centerX" secondItem="yd7-JS-zBw" secondAttribute="centerX" constant="0.0" id="36"/>
+                            <constraint firstItem="35" firstAttribute="centerY" secondItem="yd7-JS-zBw" secondAttribute="centerY" constant="0.0" id="37"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XAI-xm-WK6" userLabel="First Responder" sceneMemberID="firstResponder"/>

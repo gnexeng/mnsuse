@@ -1,7 +1,0 @@
-/Users/ua4225pe/Projects/mnsuse/UITests/obj/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
-/Users/ua4225pe/Projects/mnsuse/UITests/bin/Debug/mnsuse.UITests.dll.mdb
-/Users/ua4225pe/Projects/mnsuse/UITests/bin/Debug/mnsuse.UITests.dll
-/Users/ua4225pe/Projects/mnsuse/UITests/obj/Debug/mnsuse.UITests.dll
-/Users/ua4225pe/Projects/mnsuse/UITests/obj/Debug/mnsuse.UITests.dll.mdb
-/Users/ua4225pe/Projects/mnsuse/UITests/bin/Debug/nunit.framework.dll
-/Users/ua4225pe/Projects/mnsuse/UITests/bin/Debug/Xamarin.UITest.dll
