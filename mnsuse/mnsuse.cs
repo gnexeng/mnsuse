@@ -1,6 +1,7 @@
 ﻿using System;
-
 using Xamarin.Forms;
+using System.Collections.Generic;
+
 
 namespace mnsuse
 {
@@ -21,44 +22,13 @@ namespace mnsuse
 //				}
 //			};
 
-			MainPage = new ContentPage{
-				Content = new ScrollView{
-					Content = new StackLayout{
-						Orientation = StackOrientation.Vertical,
-						HorizontalOptions = LayoutOptions.Start,
-						Padding = new Thickness(20),
-						Spacing = 10,
-						Children = {
-							new msuStackItems().createLabel("Label 1", Color.Yellow, 18),
-							new msuStackItems().createLabel("Label 2", Color.Blue, 18),
-							new msuStackItems().createLabel("Label 1", Color.Yellow, 18),
-							new msuStackItems().createLabel("Label 2", Color.Blue, 18),
-							new msuStackItems().createLabel("Label 1", Color.Yellow, 18),
-							new msuStackItems().createLabel("Label 2", Color.Blue, 18),
-							new msuStackItems().createLabel("Label 1", Color.Yellow, 18),
-							new msuStackItems().createLabel("Label 2", Color.Blue, 18),
-							new msuStackItems().createLabel("Label 1", Color.Yellow, 18),
-							new msuStackItems().createLabel("Label 2", Color.Blue, 18),
-							new msuStackItems().createLabel("Label 1", Color.Yellow, 18),
-							new msuStackItems().createLabel("Label 2", Color.Blue, 18),
-							new msuStackItems().createLabel("Label 1", Color.Yellow, 18),
-							new msuStackItems().createLabel("Label 2", Color.Blue, 18),
-							new msuStackItems().createLabel("Label 1", Color.Yellow, 18),
-							new msuStackItems().createLabel("Label 2", Color.Blue, 18),
-							new msuStackItems().createLabel("Label 1", Color.Yellow, 18),
-							new msuStackItems().createLabel("Label 2", Color.Blue, 18),
-							new msuStackItems().createLabel("Label 1", Color.Yellow, 18),
-							new msuStackItems().createLabel("Label 2", Color.Blue, 18),
-
-						}
-					}
-				}
-			};
+			MainPage = new WebViewDemoPage ();
 		}
 
 		protected override void OnStart ()
 		{
 			// Handle when your app starts
+
 		}
 
 		protected override void OnSleep ()
