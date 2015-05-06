@@ -1,4 +1,4 @@
-﻿<Properties StartupItem="iOS/mnsuse.iOS.csproj">
+﻿<Properties StartupItem="iOS/mnsuse.iOS.csproj" GitUserInfo="UsingGIT">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhone" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget.NexusiPhone" />
   <MonoDevelop.Ide.Workbench />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
