@@ -1,0 +1,12 @@
+/Users/ua4225pe/Projects/mnsuse/iOS/obj/iPhone/Debug/mtouch-cache/64/Link/System.Runtime.Serialization.dll
+/Users/ua4225pe/Projects/mnsuse/iOS/obj/iPhone/Debug/mtouch-cache/64/Link/Xamarin.Forms.Platform.iOS.dll
+/Users/ua4225pe/Projects/mnsuse/iOS/obj/iPhone/Debug/mtouch-cache/64/Link/mnsuse.iOS.exe
+/Users/ua4225pe/Projects/mnsuse/iOS/obj/iPhone/Debug/mtouch-cache/64/Link/System.dll
+/Users/ua4225pe/Projects/mnsuse/iOS/obj/iPhone/Debug/mtouch-cache/64/Link/System.Xml.dll
+/Users/ua4225pe/Projects/mnsuse/iOS/obj/iPhone/Debug/mtouch-cache/64/Link/Xamarin.iOS.dll
+/Users/ua4225pe/Projects/mnsuse/iOS/obj/iPhone/Debug/mtouch-cache/64/Link/System.Core.dll
+/Users/ua4225pe/Projects/mnsuse/iOS/obj/iPhone/Debug/mtouch-cache/64/Link/mscorlib.dll
+/Users/ua4225pe/Projects/mnsuse/iOS/obj/iPhone/Debug/mtouch-cache/64/Link/Xamarin.Forms.Core.dll
+/Users/ua4225pe/Projects/mnsuse/iOS/obj/iPhone/Debug/mtouch-cache/64/Link/Calabash.dll
+/Users/ua4225pe/Projects/mnsuse/iOS/obj/iPhone/Debug/mtouch-cache/64/Link/System.Net.Http.dll
+/Users/ua4225pe/Projects/mnsuse/iOS/obj/iPhone/Debug/mtouch-cache/64/Link/Mono.Dynamic.Interpreter.dll

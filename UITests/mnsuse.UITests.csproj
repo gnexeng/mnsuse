@@ -37,12 +37,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\iOS\mnsuse.iOS.csproj">
-      <Project>{11570346-1A70-4D7F-9B8C-19B60471A05A}</Project>
-      <Name>mnsuse.iOS</Name>
-      <ReferenceOutputAssembly>False</ReferenceOutputAssembly>
-      <Private>False</Private>
-    </ProjectReference>
     <ProjectReference Include="..\Droid\mnsuse.Droid.csproj">
       <Project>{05022502-7921-4EAC-AC19-53E496FD8C2C}</Project>
       <Name>mnsuse.Droid</Name>
