@@ -1425,7 +1425,7 @@ image_table:
 
 	.long 0,1,4,0,0
 	.asciz "mnsuse.iOS"
-	.asciz "1473F672-8622-4D59-AEC8-328B9744D944"
+	.asciz "27B8D0DF-F6ED-43D7-9F35-877B89CBAAC9"
 	.asciz ""
 	.asciz ""
 	.align 3
@@ -1460,7 +1460,7 @@ got_end:
 .section __TEXT, __const
 	.align 2
 assembly_guid:
-	.asciz "1473F672-8622-4D59-AEC8-328B9744D944"
+	.asciz "27B8D0DF-F6ED-43D7-9F35-877B89CBAAC9"
 .section __TEXT, __const
 	.align 2
 runtime_version:
