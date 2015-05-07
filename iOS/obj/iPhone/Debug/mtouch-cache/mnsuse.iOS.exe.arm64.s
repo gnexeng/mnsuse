@@ -531,38 +531,38 @@ Lme_7:
 	.align 4
 	.no_dead_strip mnsuse_WebViewDemoPage__ctor
 mnsuse_WebViewDemoPage__ctor:
-.word 0xa9a37bfd
+.word 0xa9b17bfd
 .word 0x910003fd
-.word 0xa9015bb5
-.word 0xa90263b7
-.word 0xa9036bb9
+.word 0xa9015fb6
+.word 0xa90267b8
+.word 0xf9001bba
 .word 0xaa0003fa
 
 adrp x16, _mono_aot_mnsuse_iOS_got@PAGE+0
 add x16, x16, _mono_aot_mnsuse_iOS_got@PAGEOFF
 ldr x16, [x16, #120]
-.word 0xf90023b0
-.word 0xf94023b0
+.word 0xf9001fb0
+.word 0xf9401fb0
 .word 0xf9400210
-.word 0xf90027b0
-.word 0xf94023b1
+.word 0xf90023b0
+.word 0xf9401fb1
 .word 0xf9403e31
 .word 0xb4000051
 .word 0xf9400231
-.word 0xf94027b0
+.word 0xf94023b0
 .word 0xf9400210
-.word 0xf94023b1
+.word 0xf9401fb1
 .word 0xf9405631
 .word 0xb4000051
 .word 0xf9400231
 .word 0xaa1a03e0
 .word 0xaa1a03e0
 bl _p_12
-.word 0xf94023b1
+.word 0xf9401fb1
 .word 0xf9407231
 .word 0xb4000051
 .word 0xf9400231
-.word 0xf94023b1
+.word 0xf9401fb1
 .word 0xf9408231
 .word 0xb4000051
 .word 0xf9400231
@@ -571,21 +571,21 @@ adrp x16, _mono_aot_mnsuse_iOS_got@PAGE+0
 add x16, x16, _mono_aot_mnsuse_iOS_got@PAGEOFF
 ldr x0, [x16, #128]
 bl _p_5
-.word 0xf900e3a0
+.word 0xf90073a0
 bl _p_13
-.word 0xf94023b1
+.word 0xf9401fb1
 .word 0xf940aa31
 .word 0xb4000051
 .word 0xf9400231
-.word 0xf940e3a0
+.word 0xf94073a0
 .word 0xaa0003f8
-.word 0xf94023b1
+.word 0xf9401fb1
 .word 0xf940c231
 .word 0xb4000051
 .word 0xf9400231
 .word 0xaa1803e0
-.word 0xf900d7a0
-.word 0xf94023b1
+.word 0xf90067a0
+.word 0xf9401fb1
 .word 0xf940da31
 .word 0xb4000051
 .word 0xf9400231
@@ -594,15 +594,15 @@ adrp x16, _mono_aot_mnsuse_iOS_got@PAGE+0
 add x16, x16, _mono_aot_mnsuse_iOS_got@PAGEOFF
 ldr x0, [x16, #136]
 bl _p_5
-.word 0xf900dfa0
+.word 0xf9006fa0
 bl _p_14
-.word 0xf94023b1
+.word 0xf9401fb1
 .word 0xf9410231
 .word 0xb4000051
 .word 0xf9400231
-.word 0xf940dfa0
+.word 0xf9406fa0
 .word 0xaa0003f7
-.word 0xf94023b1
+.word 0xf9401fb1
 .word 0xf9411a31
 .word 0xb4000051
 .word 0xf9400231
@@ -611,84 +611,61 @@ bl _p_14
 adrp x16, _mono_aot_mnsuse_iOS_got@PAGE+0
 add x16, x16, _mono_aot_mnsuse_iOS_got@PAGEOFF
 ldr x0, [x16, #144]
-.word 0xf900dba0
-.word 0xf94023b1
+.word 0xf9006ba0
+.word 0xf9401fb1
 .word 0xf9413e31
 .word 0xb4000051
 .word 0xf9400231
-.word 0xf940dba1
+.word 0xf9406ba1
 .word 0xaa1703e0
 .word 0xf94002fe
 bl _p_15
-.word 0xf94023b1
+.word 0xf9401fb1
 .word 0xf9415e31
 .word 0xb4000051
 .word 0xf9400231
 .word 0xaa1703e0
-.word 0xf900d3a0
-.word 0xf94023b1
+.word 0xf90063a0
+.word 0xf9401fb1
 .word 0xf9417631
 .word 0xb4000051
 .word 0xf9400231
-.word 0xf940d3a1
-.word 0xf940d7a2
+.word 0xf94063a1
+.word 0xf94067a2
 .word 0xaa0203e0
 .word 0xf940005e
 bl _p_16
-.word 0xf94023b1
+.word 0xf9401fb1
 .word 0xf9419a31
 .word 0xb4000051
 .word 0xf9400231
 .word 0xaa1803e0
-.word 0xf900cfa0
+.word 0xf9005fa0
 
 adrp x16, _mono_aot_mnsuse_iOS_got@PAGE+0
 add x16, x16, _mono_aot_mnsuse_iOS_got@PAGEOFF
 ldr x0, [x16, #152]
-.word 0x9103e3a1
+.word 0x9101a3a1
 .word 0xb9800000
-.word 0xb900fba0
-.word 0xf94023b1
+.word 0xb9006ba0
+.word 0xf9401fb1
 .word 0xf941ca31
 .word 0xb4000051
 .word 0xf9400231
-.word 0xf940cfa2
+.word 0xf9405fa2
 .word 0xaa0203e0
-.word 0x9103e3a1
-.word 0xf9407fa1
+.word 0x9101a3a1
+.word 0xf94037a1
 .word 0xf940005e
 bl _p_17
-.word 0xf94023b1
+.word 0xf9401fb1
 .word 0xf941f231
 .word 0xb4000051
 .word 0xf9400231
 .word 0xaa1803e0
-.word 0xf900cba0
-
-adrp x16, _mono_aot_mnsuse_iOS_got@PAGE+0
-add x16, x16, _mono_aot_mnsuse_iOS_got@PAGEOFF
-ldr x0, [x16, #152]
-.word 0x9103c3a1
-.word 0xb9800000
-.word 0xb900f3a0
-.word 0xf94023b1
-.word 0xf9422231
-.word 0xb4000051
-.word 0xf9400231
-.word 0xf940cba2
-.word 0xaa0203e0
-.word 0x9103c3a1
-.word 0xf9407ba1
-.word 0xf940005e
-bl _p_18
-.word 0xf94023b1
-.word 0xf9424a31
-.word 0xb4000051
-.word 0xf9400231
-.word 0xaa1803e0
 .word 0xaa0003f9
-.word 0xf94023b1
-.word 0xf9426231
+.word 0xf9401fb1
+.word 0xf9420a31
 .word 0xb4000051
 .word 0xf9400231
 .word 0xaa1a03e0
@@ -698,8 +675,8 @@ bl _p_18
 .word 0xd2800280
 .word 0xd2800000
 .word 0xd2800000
-.word 0xf94023b1
-.word 0xf9428e31
+.word 0xf9401fb1
+.word 0xf9423631
 .word 0xb4000051
 .word 0xf9400231
 
@@ -709,34 +686,34 @@ ldr x15, [x16, #160]
 .word 0xd2800280
 .word 0xd2800001
 .word 0xd2800002
-bl _p_19
+bl _p_18
 .word 0x93407c00
-.word 0xf900c7a0
-.word 0xf94023b1
-.word 0xf942c231
+.word 0xf9005ba0
+.word 0xf9401fb1
+.word 0xf9426a31
 .word 0xb4000051
 .word 0xf9400231
-.word 0xf940c7a0
+.word 0xf9405ba0
 .word 0x1e620000
-.word 0xfd00c3a0
+.word 0xfd0057a0
 .word 0xd280001e
 .word 0xf2e8049e
 .word 0x9e6703c0
 .word 0xd280001e
 .word 0xf2e8029e
 .word 0x9e6703c0
-.word 0xf94023b1
-.word 0xf942f631
+.word 0xf9401fb1
+.word 0xf9429e31
 .word 0xb4000051
 .word 0xf9400231
-.word 0xfd40c3a1
-.word 0x910403a0
+.word 0xfd4057a1
+.word 0x9101c3a0
 .word 0xd2800000
-.word 0xf90083a0
-.word 0xf90087a0
-.word 0xf9008ba0
-.word 0xf9008fa0
-.word 0x910403a0
+.word 0xf9003ba0
+.word 0xf9003fa0
+.word 0xf90043a0
+.word 0xf90047a0
+.word 0x9101c3a0
 .word 0xd280001e
 .word 0xf2e8049e
 .word 0x9e6703c0
@@ -746,35 +723,35 @@ bl _p_19
 .word 0xd280001e
 .word 0xf2e8029e
 .word 0x9e6703c3
+bl _p_19
+.word 0x9101c3a0
+.word 0x910123a0
+.word 0xf9403ba0
+.word 0xf90027a0
+.word 0xf9403fa0
+.word 0xf9002ba0
+.word 0xf94043a0
+.word 0xf9002fa0
+.word 0xf94047a0
+.word 0xf90033a0
+.word 0xf9401fb1
+.word 0xf9431e31
+.word 0xb4000051
+.word 0xf9400231
+.word 0xaa1a03e0
+.word 0x910123a1
+.word 0xfd4027a0
+.word 0xfd402ba1
+.word 0xfd402fa2
+.word 0xfd4033a3
 bl _p_20
-.word 0x910403a0
-.word 0x910343a0
-.word 0xf94083a0
-.word 0xf9006ba0
-.word 0xf94087a0
-.word 0xf9006fa0
-.word 0xf9408ba0
-.word 0xf90073a0
-.word 0xf9408fa0
-.word 0xf90077a0
-.word 0xf94023b1
-.word 0xf9437631
+.word 0xf9401fb1
+.word 0xf9434a31
 .word 0xb4000051
 .word 0xf9400231
 .word 0xaa1a03e0
-.word 0x910343a1
-.word 0xfd406ba0
-.word 0xfd406fa1
-.word 0xfd4073a2
-.word 0xfd4077a3
-bl _p_21
-.word 0xf94023b1
-.word 0xf943a231
-.word 0xb4000051
-.word 0xf9400231
-.word 0xaa1a03e0
-.word 0xf94023b1
-.word 0xf943b631
+.word 0xf9401fb1
+.word 0xf9435e31
 .word 0xb4000051
 .word 0xf9400231
 
@@ -782,1849 +759,58 @@ adrp x16, _mono_aot_mnsuse_iOS_got@PAGE+0
 add x16, x16, _mono_aot_mnsuse_iOS_got@PAGEOFF
 ldr x0, [x16, #168]
 bl _p_5
-.word 0xf900bfa0
-bl _p_22
-.word 0xf94023b1
-.word 0xf943de31
+.word 0xf90053a0
+bl _p_21
+.word 0xf9401fb1
+.word 0xf9438631
 .word 0xb4000051
 .word 0xf9400231
-.word 0xf940bfa0
+.word 0xf94053a0
 .word 0xaa0003f6
-.word 0xf94023b1
-.word 0xf943f631
+.word 0xf9401fb1
+.word 0xf9439e31
 .word 0xb4000051
 .word 0xf9400231
 .word 0xaa1603e0
-.word 0xf94023b1
-.word 0xf9440a31
+.word 0xaa1903e0
+.word 0xf9004fa0
+.word 0xf9401fb1
+.word 0xf943ba31
 .word 0xb4000051
 .word 0xf9400231
+.word 0xf9404fa1
 .word 0xaa1603e0
 .word 0xf94002de
-bl _p_23
-.word 0xf900a7a0
-.word 0xf94023b1
-.word 0xf9442a31
-.word 0xb4000051
-.word 0xf9400231
-
-adrp x16, _mono_aot_mnsuse_iOS_got@PAGE+0
-add x16, x16, _mono_aot_mnsuse_iOS_got@PAGEOFF
-ldr x0, [x16, #176]
-bl _p_5
-.word 0xf900bba0
-bl _p_24
-.word 0xf94023b1
-.word 0xf9445231
-.word 0xb4000051
-.word 0xf9400231
-.word 0xf940bba0
-.word 0xaa0003f5
-.word 0xf94023b1
-.word 0xf9446a31
-.word 0xb4000051
-.word 0xf9400231
-.word 0xaa1503e0
-
-adrp x16, _mono_aot_mnsuse_iOS_got@PAGE+0
-add x16, x16, _mono_aot_mnsuse_iOS_got@PAGEOFF
-ldr x0, [x16, #184]
-.word 0xf900b7a0
-.word 0xf94023b1
-.word 0xf9448e31
-.word 0xb4000051
-.word 0xf9400231
-.word 0xf940b7a1
-.word 0xaa1503e0
-.word 0xf94002be
-bl _p_25
-.word 0xf94023b1
-.word 0xf944ae31
-.word 0xb4000051
-.word 0xf9400231
-.word 0xaa1503e0
-.word 0xf900b3a0
-.word 0xd2800020
-.word 0xf94023b1
-.word 0xf944ca31
-.word 0xb4000051
-.word 0xf9400231
-.word 0xf940b3a2
-.word 0xaa0203e0
-.word 0xd2800021
-.word 0xf940005e
-bl _p_26
-.word 0xf94023b1
-.word 0xf944ee31
-.word 0xb4000051
-.word 0xf9400231
-.word 0xaa1503e0
-.word 0xf900afa0
-
-adrp x16, _mono_aot_mnsuse_iOS_got@PAGE+0
-add x16, x16, _mono_aot_mnsuse_iOS_got@PAGEOFF
-ldr x0, [x16, #192]
-.word 0x9102c3a1
-.word 0xf9400001
-.word 0xf9005ba1
-.word 0xf9400401
-.word 0xf9005fa1
-.word 0xf9400801
-.word 0xf90063a1
-.word 0xf9400c00
-.word 0xf90067a0
-.word 0xf94023b1
-.word 0xf9453631
-.word 0xb4000051
-.word 0xf9400231
-.word 0xf940afa2
-.word 0xaa0203e0
-.word 0x9102c3a1
-.word 0x910243a3
-.word 0xf9405ba3
-.word 0xf9004ba3
-.word 0xf9405fa3
-.word 0xf9004fa3
-.word 0xf94063a3
-.word 0xf90053a3
-.word 0xf94067a3
-.word 0xf90057a3
-.word 0xaa0103e3
-.word 0xf940005e
-bl _p_27
-.word 0xf94023b1
-.word 0xf9458231
-.word 0xb4000051
-.word 0xf9400231
-.word 0xaa1503e0
-.word 0xf900aba0
-
-adrp x16, _mono_aot_mnsuse_iOS_got@PAGE+0
-add x16, x16, _mono_aot_mnsuse_iOS_got@PAGEOFF
-ldr x0, [x16, #200]
-.word 0x9101c3a1
-.word 0xf9400001
-.word 0xf9003ba1
-.word 0xf9400401
-.word 0xf9003fa1
-.word 0xf9400801
-.word 0xf90043a1
-.word 0xf9400c00
-.word 0xf90047a0
-.word 0xf94023b1
-.word 0xf945ca31
-.word 0xb4000051
-.word 0xf9400231
-.word 0xf940aba2
-.word 0xaa0203e0
-.word 0x9101c3a1
-.word 0x910143a3
-.word 0xf9403ba3
-.word 0xf9002ba3
-.word 0xf9403fa3
-.word 0xf9002fa3
-.word 0xf94043a3
-.word 0xf90033a3
-.word 0xf94047a3
-.word 0xf90037a3
-.word 0xaa0103e3
-.word 0xf940005e
-bl _p_28
-.word 0xf94023b1
-.word 0xf9461631
-.word 0xb4000051
-.word 0xf9400231
-.word 0xaa1503e0
-.word 0xf900a3a0
-.word 0xf94023b1
-.word 0xf9462e31
-.word 0xb4000051
-.word 0xf9400231
-.word 0xf940a3a1
-.word 0xf940a7a2
-.word 0xaa0203e0
-.word 0xf9400042
-
-adrp x16, _mono_aot_mnsuse_iOS_got@PAGE+0
-add x16, x16, _mono_aot_mnsuse_iOS_got@PAGEOFF
-ldr x15, [x16, #208]
-.word 0x928007f0
-.word 0xf2bffff0
-.word 0xf8706850
-.word 0xd63f0200
-.word 0xf94023b1
-.word 0xf9466a31
+bl _p_22
+.word 0xf9401fb1
+.word 0xf943da31
 .word 0xb4000051
 .word 0xf9400231
 .word 0xaa1603e0
-.word 0xf9009fa0
-.word 0xf94023b1
-.word 0xf9468231
-.word 0xb4000051
-.word 0xf9400231
-.word 0xf9409fa1
-.word 0xaa0103e0
-.word 0xf940003e
-bl _p_23
-.word 0xf9009ba0
-.word 0xf94023b1
-.word 0xf946a631
-.word 0xb4000051
-.word 0xf9400231
-.word 0xaa1903e0
-.word 0xf90097a0
-.word 0xf94023b1
-.word 0xf946be31
-.word 0xb4000051
-.word 0xf9400231
-.word 0xf94097a1
-.word 0xf9409ba2
-.word 0xaa0203e0
-.word 0xf9400042
-
-adrp x16, _mono_aot_mnsuse_iOS_got@PAGE+0
-add x16, x16, _mono_aot_mnsuse_iOS_got@PAGEOFF
-ldr x15, [x16, #208]
-.word 0x928007f0
-.word 0xf2bffff0
-.word 0xf8706850
-.word 0xd63f0200
-.word 0xf94023b1
-.word 0xf946fa31
-.word 0xb4000051
-.word 0xf9400231
-.word 0xaa1603e0
-.word 0xf90093a0
-.word 0xf94023b1
-.word 0xf9471231
-.word 0xb4000051
-.word 0xf9400231
-.word 0xf94093a1
-.word 0xaa1a03e0
-bl _p_29
-.word 0xf94023b1
-.word 0xf9472e31
-.word 0xb4000051
-.word 0xf9400231
-.word 0xf94023b1
-.word 0xf9473e31
-.word 0xb4000051
-.word 0xf9400231
-.word 0xa9415bb5
-.word 0xa94263b7
-.word 0xa9436bb9
-.word 0x910003bf
-.word 0xa8dd7bfd
-.word 0xd65f03c0
-
-Lme_8:
-.text
-	.align 4
-	.no_dead_strip System_Array_InternalArray__IEnumerable_GetEnumerator_T
-System_Array_InternalArray__IEnumerable_GetEnumerator_T:
-.word 0xa9b87bfd
-.word 0x910003fd
-.word 0xf90027af
-.word 0xf9000ba0
-
-adrp x16, _mono_aot_mnsuse_iOS_got@PAGE+0
-add x16, x16, _mono_aot_mnsuse_iOS_got@PAGEOFF
-ldr x16, [x16, #216]
-.word 0xf9000fb0
-.word 0xf9400fb0
-.word 0xf9400210
-.word 0xf90013b0
-.word 0xf94027a0
-bl _p_30
-.word 0xf9002ba0
-.word 0xf9402ba0
-.word 0xb9800000
-.word 0xd2800000
-.word 0xf9002fbf
-.word 0xf9400fb1
-.word 0xf9405231
-.word 0xb4000051
-.word 0xf9400231
-.word 0xf94013b0
-.word 0xf9400210
-.word 0xf9400fb1
-.word 0xf9406a31
-.word 0xb4000051
-.word 0xf9400231
-.word 0xf9400ba0
-.word 0xf90037a0
-.word 0x9100e3a0
-.word 0xd2800000
-.word 0xf9001fa0
-.word 0xf90023a0
-.word 0x9100e3a0
-.word 0xf90033a0
-.word 0xf94027a0
-bl _p_31
-.word 0xf9003ba0
-.word 0xf94027a0
-bl _p_32
-.word 0xaa0003e2
-.word 0xf94033a0
-.word 0xf94037a1
-.word 0xf9403baf
-.word 0xd63f0040
-.word 0x9100e3a0
-.word 0x9100a3a0
-.word 0xf9401fa0
-.word 0xf90017a0
-.word 0xf94023a0
-.word 0xf9001ba0
-.word 0xf9400fb1
-.word 0xf940da31
-.word 0xb4000051
-.word 0xf9400231
-.word 0xf94027a0
-bl _p_31
-bl _p_33
-.word 0x9100a3a1
-.word 0x91004003
-.word 0xaa0303e1
-.word 0xf94017a2
-.word 0xf9000062
-.word 0xd349fc23
-.word 0xd29ffffe
-.word 0xf2a00ffe
-.word 0x8a1e0063
-
-adrp x16, _mono_aot_mnsuse_iOS_got@PAGE+0
-add x16, x16, _mono_aot_mnsuse_iOS_got@PAGEOFF
-ldr x4, [x16, #16]
-.word 0x8b040063
-.word 0xd280003e
-.word 0x3900007e
-.word 0x91002021
-.word 0xf9401ba2
-.word 0xf9000022
-.word 0xf9400fb1
-.word 0xf9413e31
-.word 0xb4000051
-.word 0xf9400231
-.word 0x910003bf
-.word 0xa8c87bfd
-.word 0xd65f03c0
-
-Lme_a:
-.text
-	.align 4
-	.no_dead_strip System_Array_InternalArray__Insert_T_int_T
-System_Array_InternalArray__Insert_T_int_T:
-.word 0xa9bb7bfd
-.word 0x910003fd
-.word 0xf9001faf
-.word 0xf9000ba0
-.word 0xf9000fa1
-.word 0xf90013a2
-
-adrp x16, _mono_aot_mnsuse_iOS_got@PAGE+0
-add x16, x16, _mono_aot_mnsuse_iOS_got@PAGEOFF
-ldr x16, [x16, #224]
-.word 0xf90017b0
-.word 0xf94017b0
-.word 0xf9400210
-.word 0xf9001bb0
-.word 0xf9401fa0
-bl _p_34
-.word 0xf90023a0
-.word 0xf94023a0
-.word 0xb9800000
-.word 0xd2800000
-.word 0xf90027bf
-.word 0xf94017b1
-.word 0xf9405a31
-.word 0xb4000051
-.word 0xf9400231
-.word 0xf9401bb0
-.word 0xf9400210
-.word 0xf94017b1
-.word 0xf9407231
-.word 0xb4000051
-.word 0xf9400231
-.word 0xd287db80
-.word 0xf2a00020
-.word 0xd287db80
-.word 0xf2a00020
-bl _p_35
-.word 0xaa0003e1
-.word 0xd2806b80
-.word 0xf2a04000
-.word 0xd2806b80
-.word 0xf2a04000
-bl _mono_create_corlib_exception_1
-bl _p_36
-.word 0xf94017b1
-.word 0xf940b231
-.word 0xb4000051
-.word 0xf9400231
-.word 0x910003bf
-.word 0xa8c57bfd
-.word 0xd65f03c0
-
-Lme_b:
-.text
-	.align 4
-	.no_dead_strip System_Array_InternalArray__RemoveAt_int
-System_Array_InternalArray__RemoveAt_int:
-.word 0xa9bd7bfd
-.word 0x910003fd
-.word 0xf9000ba0
-.word 0xf9000fa1
-
-adrp x16, _mono_aot_mnsuse_iOS_got@PAGE+0
-add x16, x16, _mono_aot_mnsuse_iOS_got@PAGEOFF
-ldr x16, [x16, #232]
-.word 0xf90013b0
-.word 0xf94013b0
-.word 0xf9400210
-.word 0xf90017b0
-.word 0xf94013b1
-.word 0xf9403631
-.word 0xb4000051
-.word 0xf9400231
-.word 0xf94017b0
-.word 0xf9400210
-.word 0xf94013b1
-.word 0xf9404e31
-.word 0xb4000051
-.word 0xf9400231
-.word 0xd287db80
-.word 0xf2a00020
-.word 0xd287db80
-.word 0xf2a00020
-bl _p_35
-.word 0xaa0003e1
-.word 0xd2806b80
-.word 0xf2a04000
-.word 0xd2806b80
-.word 0xf2a04000
-bl _mono_create_corlib_exception_1
-bl _p_36
-.word 0xf94013b1
-.word 0xf9408e31
-.word 0xb4000051
-.word 0xf9400231
-.word 0x910003bf
-.word 0xa8c37bfd
-.word 0xd65f03c0
-
-Lme_c:
-.text
-	.align 4
-	.no_dead_strip System_Array_InternalArray__IndexOf_T_T
-System_Array_InternalArray__IndexOf_T_T:
-.word 0xa9b57bfd
-.word 0x910003fd
-.word 0xa90157b4
-.word 0xa90263b7
-.word 0xf9001bba
-.word 0xf9002baf
-.word 0xaa0003fa
-.word 0xf9001fa1
-
-adrp x16, _mono_aot_mnsuse_iOS_got@PAGE+0
-add x16, x16, _mono_aot_mnsuse_iOS_got@PAGEOFF
-ldr x16, [x16, #240]
-.word 0xf90023b0
-.word 0xf94023b0
-.word 0xf9400210
-.word 0xf90027b0
-.word 0xf9402ba0
-bl _p_37
-.word 0xf9002fa0
-.word 0xf9402fa0
-.word 0xb9800000
-.word 0xd2800000
-.word 0xf90033bf
-.word 0xf90037bf
-.word 0xf94023b1
-.word 0xf9406631
-.word 0xb4000051
-.word 0xf9400231
-.word 0xf94027b0
-.word 0xf9400210
-.word 0xf94023b1
-.word 0xf9407e31
-.word 0xb4000051
-.word 0xf9400231
-.word 0xaa1a03e0
-.word 0xaa1a03e0
-bl _p_38
-.word 0x93407c00
-.word 0xf90053a0
-.word 0xf94023b1
-.word 0xf940a231
-.word 0xb4000051
-.word 0xf9400231
-.word 0xf94053a0
-.word 0xd2800021
-.word 0xd280003e
-.word 0x6b1e001f
-.word 0x540002ed
-.word 0xf94023b1
-.word 0xf940c631
-.word 0xb4000051
-.word 0xf9400231
-.word 0xd287e300
-.word 0xf2a00020
-.word 0xd287e300
-.word 0xf2a00020
-bl _p_35
-bl _p_39
-.word 0xf90053a0
-.word 0xf94023b1
-.word 0xf940f231
-.word 0xb4000051
-.word 0xf9400231
-.word 0xf94053a1
-.word 0xd2806da0
-.word 0xf2a04000
-.word 0xd2806da0
-.word 0xf2a04000
-bl _mono_create_corlib_exception_1
-bl _p_36
-.word 0xf94023b1
-.word 0xf9411e31
-.word 0xb4000051
-.word 0xf9400231
-.word 0xaa1a03e0
-.word 0xaa1a03e0
-bl _p_40
-.word 0x93407c00
-.word 0xf90053a0
-.word 0xf94023b1
-.word 0xf9414231
-.word 0xb4000051
-.word 0xf9400231
-.word 0xf94053a0
-.word 0xaa0003f8
-.word 0xf94023b1
-.word 0xf9415a31
-.word 0xb4000051
-.word 0xf9400231
-.word 0xd2800017
-.word 0x1400006f
-.word 0xf94023b1
-.word 0xf9417231
-.word 0xb4000051
-.word 0xf9400231
-.word 0xaa1a03e0
-.word 0xaa1703e0
-.word 0x9101a3a0
-.word 0xf90053a0
-.word 0xf9402ba0
-bl _p_41
-.word 0xf90057a0
-.word 0xf9402ba0
-bl _p_42
-.word 0xaa0003e3
-.word 0xf94053a2
-.word 0xf94057af
-.word 0xaa1a03e0
-.word 0xaa1703e1
-.word 0xd63f0060
-.word 0xf94023b1
-.word 0xf941be31
-.word 0xb4000051
-.word 0xf9400231
-.word 0xf9401fa0
-.word 0xb50004c0
-.word 0xf94023b1
-.word 0xf941d631
-.word 0xb4000051
-.word 0xf9400231
-.word 0xf94037a0
-.word 0xb5000360
-.word 0xf94023b1
-.word 0xf941ee31
-.word 0xb4000051
-.word 0xf9400231
-.word 0xf9003fb7
-.word 0xaa1a03e0
-.word 0xd2800000
-.word 0xf9400b40
-.word 0xf90043a0
-.word 0xeb1f001f
-.word 0x540000a0
-.word 0xf94043a0
-.word 0xb9800400
-.word 0xf90047a0
-.word 0x14000002
-.word 0xf90047bf
-.word 0xf94047a0
-.word 0xf90047a0
-.word 0xf94023b1
-.word 0xf9423631
-.word 0xb4000051
-.word 0xf9400231
-.word 0xf9403fa0
-.word 0xf94047a1
-.word 0xb010000
-.word 0x14000057
-.word 0xf94023b1
-.word 0xf9425631
-.word 0xb4000051
-.word 0xf9400231
-.word 0x14000028
-.word 0xf94023b1
-.word 0xf9426a31
-.word 0xb4000051
-.word 0xf9400231
-.word 0x9101a3a0
-.word 0xf9401fa1
-.word 0xf94037a2
-.word 0xaa0203e0
-.word 0xf9400042
-.word 0xf9402850
-.word 0xd63f0200
-.word 0x53001c00
-.word 0xf90053a0
-.word 0xf94023b1
-.word 0xf9429e31
-.word 0xb4000051
-.word 0xf9400231
-.word 0xf94053a0
-.word 0x340002a0
-.word 0xf94023b1
-.word 0xf942b631
-.word 0xb4000051
-.word 0xf9400231
-.word 0xf9003bb7
-.word 0xaa1a03e0
-.word 0xd2800000
-.word 0xf9400b55
-.word 0xeb1f02bf
-.word 0x54000060
-.word 0xb98006b4
-.word 0x14000002
-.word 0xd2800014
-.word 0xf94023b1
-.word 0xf942ea31
-.word 0xb4000051
-.word 0xf9400231
-.word 0xf9403ba0
-.word 0xb140000
-.word 0x1400002b
-.word 0xf94027b0
-.word 0xf9400210
-.word 0xf94023b1
-.word 0xf9430e31
-.word 0xb4000051
-.word 0xf9400231
-.word 0xaa1703e0
-.word 0x110006e0
-.word 0xaa0003f7
-.word 0xf94027b0
-.word 0xf9400210
-.word 0xf94023b1
-.word 0xf9433231
-.word 0xb4000051
-.word 0xf9400231
-.word 0xaa1703e0
-.word 0xaa1803e0
-.word 0x6b1802ff
-.word 0x54fff12b
-.word 0xf94023b1
-.word 0xf9435231
-.word 0xb4000051
-.word 0xf9400231
-.word 0xaa1a03e0
-.word 0xd2800000
-.word 0xf9400b40
 .word 0xf9004ba0
-.word 0xeb1f001f
-.word 0x540000a0
-.word 0xf9404ba0
-.word 0xb9800400
-.word 0xf9004fa0
-.word 0x14000002
-.word 0xf9004fbf
-.word 0xf9404fa0
-.word 0xf9004fa0
-.word 0xf94023b1
-.word 0xf9439631
+.word 0xf9401fb1
+.word 0xf943f231
 .word 0xb4000051
 .word 0xf9400231
-.word 0xf9404fa0
-.word 0x51000400
-.word 0xf94023b1
-.word 0xf943ae31
+.word 0xf9404ba1
+.word 0xaa1a03e0
+bl _p_23
+.word 0xf9401fb1
+.word 0xf9440e31
 .word 0xb4000051
 .word 0xf9400231
-.word 0xa94157b4
-.word 0xa94263b7
+.word 0xf9401fb1
+.word 0xf9441e31
+.word 0xb4000051
+.word 0xf9400231
+.word 0xa9415fb6
+.word 0xa94267b8
 .word 0xf9401bba
-.word 0x910003bf
-.word 0xa8cb7bfd
-.word 0xd65f03c0
-
-Lme_d:
-.text
-	.align 4
-	.no_dead_strip System_Array_InternalArray__get_Item_T_int
-System_Array_InternalArray__get_Item_T_int:
-.word 0xa9ba7bfd
-.word 0x910003fd
-.word 0xa9016bb9
-.word 0xf9001baf
-.word 0xaa0003f9
-.word 0xaa0103fa
-
-adrp x16, _mono_aot_mnsuse_iOS_got@PAGE+0
-add x16, x16, _mono_aot_mnsuse_iOS_got@PAGEOFF
-ldr x16, [x16, #248]
-.word 0xf90013b0
-.word 0xf94013b0
-.word 0xf9400210
-.word 0xf90017b0
-.word 0xf9401ba0
-bl _p_43
-.word 0xf9001fa0
-.word 0xf9401fa0
-.word 0xb9800000
-.word 0xd2800000
-.word 0xf90023bf
-.word 0xf90027bf
-.word 0xf94013b1
-.word 0xf9405e31
-.word 0xb4000051
-.word 0xf9400231
-.word 0xf94017b0
-.word 0xf9400210
-.word 0xf94013b1
-.word 0xf9407631
-.word 0xb4000051
-.word 0xf9400231
-.word 0xaa1a03e0
-.word 0xaa1903e0
-.word 0xaa1903e0
-bl _p_40
-.word 0x93407c00
-.word 0xf9002ba0
-.word 0xf94013b1
-.word 0xf9409e31
-.word 0xb4000051
-.word 0xf9400231
-.word 0xf9402ba0
-.word 0x6b00035f
-.word 0x540001e3
-.word 0xf94013b1
-.word 0xf940ba31
-.word 0xb4000051
-.word 0xf9400231
-.word 0xd280e820
-.word 0xd280e820
-bl _p_35
-.word 0xaa0003e1
-.word 0xd28060c0
-.word 0xf2a04000
-.word 0xd28060c0
-.word 0xf2a04000
-bl _mono_create_corlib_exception_1
-bl _p_36
-.word 0xf94013b1
-.word 0xf940f231
-.word 0xb4000051
-.word 0xf9400231
-.word 0xaa1903e0
-.word 0xaa1a03e0
-.word 0x910123a0
-.word 0xf9002ba0
-.word 0xf9401ba0
-bl _p_44
-.word 0xf9002fa0
-.word 0xf9401ba0
-bl _p_45
-.word 0xaa0003e3
-.word 0xf9402ba2
-.word 0xf9402faf
-.word 0xaa1903e0
-.word 0xaa1a03e1
-.word 0xd63f0060
-.word 0xf94013b1
-.word 0xf9413e31
-.word 0xb4000051
-.word 0xf9400231
-.word 0xf94027a0
-.word 0xf94013b1
-.word 0xf9415231
-.word 0xb4000051
-.word 0xf9400231
-.word 0xa9416bb9
-.word 0x910003bf
-.word 0xa8c67bfd
-.word 0xd65f03c0
-
-Lme_e:
-.text
-	.align 4
-	.no_dead_strip System_Array_InternalArray__set_Item_T_int_T
-System_Array_InternalArray__set_Item_T_int_T:
-.word 0xa9b77bfd
-.word 0x910003fd
-.word 0xa90153b3
-.word 0xa9025bb5
-.word 0xf9001bb7
-.word 0xa903ebb9
-.word 0xf90033af
-.word 0xaa0003f9
-.word 0xaa0103fa
-.word 0xf90027a2
-
-adrp x16, _mono_aot_mnsuse_iOS_got@PAGE+0
-add x16, x16, _mono_aot_mnsuse_iOS_got@PAGEOFF
-ldr x16, [x16, #256]
-.word 0xf9002bb0
-.word 0xf9402bb0
-.word 0xf9400210
-.word 0xf9002fb0
-.word 0xf94033a0
-bl _p_46
-.word 0xf90037a0
-.word 0xf94037a0
-.word 0xb9800000
-.word 0xd2800000
-.word 0xf9003bbf
-.word 0xf9402bb1
-.word 0xf9406a31
-.word 0xb4000051
-.word 0xf9400231
-.word 0xf9402fb0
-.word 0xf9400210
-.word 0xf9402bb1
-.word 0xf9408231
-.word 0xb4000051
-.word 0xf9400231
-.word 0xaa1a03e0
-.word 0xaa1903e0
-.word 0xaa1903e0
-bl _p_40
-.word 0x93407c00
-.word 0xf90043a0
-.word 0xf9402bb1
-.word 0xf940aa31
-.word 0xb4000051
-.word 0xf9400231
-.word 0xf94043a0
-.word 0x6b00035f
-.word 0x540001e3
-.word 0xf9402bb1
-.word 0xf940c631
-.word 0xb4000051
-.word 0xf9400231
-.word 0xd280e820
-.word 0xd280e820
-bl _p_35
-.word 0xaa0003e1
-.word 0xd28060c0
-.word 0xf2a04000
-.word 0xd28060c0
-.word 0xf2a04000
-bl _mono_create_corlib_exception_1
-bl _p_36
-.word 0xf9402bb1
-.word 0xf940fe31
-.word 0xb4000051
-.word 0xf9400231
-.word 0xaa1903f6
-.word 0xaa1903f5
-.word 0xeb1f033f
-.word 0x54000280
-.word 0xf94002d4
-.word 0x3940aa80
-.word 0xd280003e
-.word 0xeb1e001f
-.word 0x540001c1
-.word 0xf9400280
-.word 0xf9400413
-.word 0xf9401660
-
-adrp x16, _mono_aot_mnsuse_iOS_got@PAGE+0
-add x16, x16, _mono_aot_mnsuse_iOS_got@PAGEOFF
-ldr x1, [x16, #264]
-.word 0xeb01001f
-.word 0x540000e1
-
-adrp x16, _mono_aot_mnsuse_iOS_got@PAGE+0
-add x16, x16, _mono_aot_mnsuse_iOS_got@PAGEOFF
-ldr x0, [x16, #272]
-.word 0xeb00027f
-.word 0x54000040
-.word 0xd2800015
-.word 0xaa1503f7
-.word 0xf9402bb1
-.word 0xf9416e31
-.word 0xb4000051
-.word 0xf9400231
-.word 0xaa1503e0
-.word 0xb4000255
-.word 0xf9402bb1
-.word 0xf9418631
-.word 0xb4000051
-.word 0xf9400231
-.word 0xaa1703e0
-.word 0xaa1a03e0
-.word 0xf94027a2
-.word 0xaa1703e0
-.word 0xaa1a03e1
-.word 0xf94002e3
-.word 0xf9407c70
-.word 0xd63f0200
-.word 0xf9402bb1
-.word 0xf941b631
-.word 0xb4000051
-.word 0xf9400231
-.word 0x14000018
-.word 0xf9402bb1
-.word 0xf941ca31
-.word 0xb4000051
-.word 0xf9400231
-.word 0xaa1903e0
-.word 0xaa1a03e0
-.word 0x910123a0
-.word 0xf90043a0
-.word 0xf94033a0
-bl _p_47
-.word 0xf90047a0
-.word 0xf94033a0
-bl _p_48
-.word 0xaa0003e3
-.word 0xf94043a2
-.word 0xf94047af
-.word 0xaa1903e0
-.word 0xaa1a03e1
-.word 0xd63f0060
-.word 0xf9402bb1
-.word 0xf9421631
-.word 0xb4000051
-.word 0xf9400231
-.word 0xf9402bb1
-.word 0xf9422631
-.word 0xb4000051
-.word 0xf9400231
-.word 0xa94153b3
-.word 0xa9425bb5
-.word 0xf9401bb7
-.word 0xa943ebb9
-.word 0x910003bf
-.word 0xa8c97bfd
-.word 0xd65f03c0
-
-Lme_f:
-.text
-	.align 4
-	.no_dead_strip wrapper_delegate_invoke_System_Func_2_Xamarin_Forms_Element_bool_invoke_TResult_T_Xamarin_Forms_Element
-wrapper_delegate_invoke_System_Func_2_Xamarin_Forms_Element_bool_invoke_TResult_T_Xamarin_Forms_Element:
-.word 0xa9ba7bfd
-.word 0x910003fd
-.word 0xa9015bb5
-.word 0xa90263b7
-.word 0xa9036bb9
-.word 0xaa0003f9
-.word 0xaa0103fa
-
-adrp x16, _mono_aot_mnsuse_iOS_got@PAGE+0
-add x16, x16, _mono_aot_mnsuse_iOS_got@PAGEOFF
-ldr x16, [x16, #280]
-.word 0xf90023b0
-.word 0xf94023b0
-.word 0xf9400210
-.word 0xf90027b0
-.word 0xf94023b1
-.word 0xf9404231
-.word 0xb4000051
-.word 0xf9400231
-.word 0xf94027b0
-.word 0xf9400210
-.word 0xf94023b1
-.word 0xf9405a31
-.word 0xb4000051
-.word 0xf9400231
-
-adrp x16, _mono_aot_mnsuse_iOS_got@PAGE+0
-add x16, x16, _mono_aot_mnsuse_iOS_got@PAGEOFF
-ldr x0, [x16, #288]
-.word 0xb9400000
-.word 0x34000260
-.word 0xf94023b1
-.word 0xf9407e31
-.word 0xb4000051
-.word 0xf9400231
-.word 0xf94023b1
-.word 0xf9408e31
-.word 0xb4000051
-.word 0xf9400231
-bl _p_49
-.word 0xaa0003f6
-.word 0xaa1603e0
-.word 0xaa1603e1
-.word 0xaa0003f5
-.word 0xb4000096
-.word 0xaa1503e0
-.word 0xaa1503e0
-bl _p_36
-.word 0xaa1503e0
-.word 0xf94027b0
-.word 0xf9400210
-.word 0xf94023b1
-.word 0xf940ce31
-.word 0xb4000051
-.word 0xf9400231
-.word 0xaa1903e0
-.word 0xaa1903e0
-.word 0x91016320
-.word 0xf9402f20
-.word 0xaa0003f7
-.word 0xf94023b1
-.word 0xf940f231
-.word 0xb4000051
-.word 0xf9400231
-.word 0xaa1703e0
-.word 0xb4000297
-.word 0xf94023b1
-.word 0xf9410a31
-.word 0xb4000051
-.word 0xf9400231
-.word 0xf94023b1
-.word 0xf9411a31
-.word 0xb4000051
-.word 0xf9400231
-.word 0xaa1703e0
-.word 0xaa1a03e0
-.word 0xaa1703e0
-.word 0xaa1a03e1
-.word 0xf9400ef0
-.word 0xd63f0200
-.word 0x53001c00
-.word 0xf94023b1
-.word 0xf9414631
-.word 0xb4000051
-.word 0xf9400231
-.word 0xf94027b0
-.word 0xf9400210
-.word 0xf94023b1
-.word 0xf9415e31
-.word 0xb4000051
-.word 0xf9400231
-.word 0xaa1903e0
-.word 0xaa1903e0
-.word 0x91008320
-.word 0xf9401320
-.word 0xaa0003f8
-.word 0xf94023b1
-.word 0xf9418231
-.word 0xb4000051
-.word 0xf9400231
-.word 0xaa1803e0
-.word 0xb4000318
-.word 0xf94023b1
-.word 0xf9419a31
-.word 0xb4000051
-.word 0xf9400231
-.word 0xaa1803e0
-.word 0xaa1a03e0
-.word 0xaa1903e0
-.word 0xaa1903e0
-.word 0x91004320
-.word 0xf9400b22
-.word 0xaa1803e0
-.word 0xaa1a03e1
-.word 0xd63f0040
-.word 0x53001c00
-.word 0xf9002ba0
-.word 0xf94027b0
-.word 0xf9400210
-.word 0xf94023b1
-.word 0xf941de31
-.word 0xb4000051
-.word 0xf9400231
-.word 0xf9402ba0
-.word 0x14000015
-.word 0xf94023b1
-.word 0xf941f631
-.word 0xb4000051
-.word 0xf9400231
-.word 0xaa1a03e0
-.word 0xaa1903e0
-.word 0xaa1903e0
-.word 0x91004320
-.word 0xf9400b21
-.word 0xaa1a03e0
-.word 0xd63f0020
-.word 0x53001c00
-.word 0xf9002ba0
-.word 0xf94027b0
-.word 0xf9400210
-.word 0xf94023b1
-.word 0xf9423231
-.word 0xb4000051
-.word 0xf9400231
-.word 0xf9402ba0
-.word 0xf94023b1
-.word 0xf9424631
-.word 0xb4000051
-.word 0xf9400231
-.word 0xa9415bb5
-.word 0xa94263b7
-.word 0xa9436bb9
-.word 0x910003bf
-.word 0xa8c67bfd
-.word 0xd65f03c0
-
-Lme_14:
-.text
-	.align 4
-	.no_dead_strip System_Array_InternalArray__ICollection_get_Count
-System_Array_InternalArray__ICollection_get_Count:
-.word 0xa9bc7bfd
-.word 0x910003fd
-.word 0xf9000ba0
-
-adrp x16, _mono_aot_mnsuse_iOS_got@PAGE+0
-add x16, x16, _mono_aot_mnsuse_iOS_got@PAGEOFF
-ldr x16, [x16, #296]
-.word 0xf9000fb0
-.word 0xf9400fb0
-.word 0xf9400210
-.word 0xf90013b0
-.word 0xf9400fb1
-.word 0xf9403231
-.word 0xb4000051
-.word 0xf9400231
-.word 0xf94013b0
-.word 0xf9400210
-.word 0xf9400fb1
-.word 0xf9404a31
-.word 0xb4000051
-.word 0xf9400231
-.word 0xf9400ba0
-bl _p_40
-.word 0x93407c00
-.word 0xf9001ba0
-.word 0xf9400fb1
-.word 0xf9406a31
-.word 0xb4000051
-.word 0xf9400231
-.word 0xf9401ba0
-.word 0xf9400fb1
-.word 0xf9407e31
-.word 0xb4000051
-.word 0xf9400231
-.word 0x910003bf
-.word 0xa8c47bfd
-.word 0xd65f03c0
-
-Lme_15:
-.text
-	.align 4
-	.no_dead_strip System_Array_InternalArray__ICollection_get_IsReadOnly
-System_Array_InternalArray__ICollection_get_IsReadOnly:
-.word 0xa9bd7bfd
-.word 0x910003fd
-.word 0xf9000ba0
-
-adrp x16, _mono_aot_mnsuse_iOS_got@PAGE+0
-add x16, x16, _mono_aot_mnsuse_iOS_got@PAGEOFF
-ldr x16, [x16, #304]
-.word 0xf9000fb0
-.word 0xf9400fb0
-.word 0xf9400210
-.word 0xf90013b0
-.word 0xf9400fb1
-.word 0xf9403231
-.word 0xb4000051
-.word 0xf9400231
-.word 0xf94013b0
-.word 0xf9400210
-.word 0xf9400fb1
-.word 0xf9404a31
-.word 0xb4000051
-.word 0xf9400231
-.word 0xd2800020
-.word 0xd2800020
-.word 0xf9400fb1
-.word 0xf9406231
-.word 0xb4000051
-.word 0xf9400231
-.word 0x910003bf
-.word 0xa8c37bfd
-.word 0xd65f03c0
-
-Lme_16:
-.text
-	.align 4
-	.no_dead_strip System_Array_InternalArray__ICollection_Clear
-System_Array_InternalArray__ICollection_Clear:
-.word 0xa9bd7bfd
-.word 0x910003fd
-.word 0xf9000ba0
-
-adrp x16, _mono_aot_mnsuse_iOS_got@PAGE+0
-add x16, x16, _mono_aot_mnsuse_iOS_got@PAGEOFF
-ldr x16, [x16, #312]
-.word 0xf9000fb0
-.word 0xf9400fb0
-.word 0xf9400210
-.word 0xf90013b0
-.word 0xf9400fb1
-.word 0xf9403231
-.word 0xb4000051
-.word 0xf9400231
-.word 0xf94013b0
-.word 0xf9400210
-.word 0xf9400fb1
-.word 0xf9404a31
-.word 0xb4000051
-.word 0xf9400231
-.word 0xd287d580
-.word 0xf2a00020
-.word 0xd287d580
-.word 0xf2a00020
-bl _p_35
-.word 0xaa0003e1
-.word 0xd2806b80
-.word 0xf2a04000
-.word 0xd2806b80
-.word 0xf2a04000
-bl _mono_create_corlib_exception_1
-bl _p_36
-.word 0xf9400fb1
-.word 0xf9408a31
-.word 0xb4000051
-.word 0xf9400231
-.word 0x910003bf
-.word 0xa8c37bfd
-.word 0xd65f03c0
-
-Lme_17:
-.text
-	.align 4
-	.no_dead_strip System_Array_InternalArray__ICollection_Add_T_T
-System_Array_InternalArray__ICollection_Add_T_T:
-.word 0xa9bb7bfd
-.word 0x910003fd
-.word 0xf9001baf
-.word 0xf9000ba0
-.word 0xf9000fa1
-
-adrp x16, _mono_aot_mnsuse_iOS_got@PAGE+0
-add x16, x16, _mono_aot_mnsuse_iOS_got@PAGEOFF
-ldr x16, [x16, #320]
-.word 0xf90013b0
-.word 0xf94013b0
-.word 0xf9400210
-.word 0xf90017b0
-.word 0xf9401ba0
-bl _p_50
-.word 0xf9001fa0
-.word 0xf9401fa0
-.word 0xb9800000
-.word 0xd2800000
-.word 0xf90023bf
-.word 0xf94013b1
-.word 0xf9405631
-.word 0xb4000051
-.word 0xf9400231
-.word 0xf94017b0
-.word 0xf9400210
-.word 0xf94013b1
-.word 0xf9406e31
-.word 0xb4000051
-.word 0xf9400231
-.word 0xd287db80
-.word 0xf2a00020
-.word 0xd287db80
-.word 0xf2a00020
-bl _p_35
-.word 0xaa0003e1
-.word 0xd2806b80
-.word 0xf2a04000
-.word 0xd2806b80
-.word 0xf2a04000
-bl _mono_create_corlib_exception_1
-bl _p_36
-.word 0xf94013b1
-.word 0xf940ae31
-.word 0xb4000051
-.word 0xf9400231
-.word 0x910003bf
-.word 0xa8c57bfd
-.word 0xd65f03c0
-
-Lme_18:
-.text
-	.align 4
-	.no_dead_strip System_Array_InternalArray__ICollection_Remove_T_T
-System_Array_InternalArray__ICollection_Remove_T_T:
-.word 0xa9bb7bfd
-.word 0x910003fd
-.word 0xf9001baf
-.word 0xf9000ba0
-.word 0xf9000fa1
-
-adrp x16, _mono_aot_mnsuse_iOS_got@PAGE+0
-add x16, x16, _mono_aot_mnsuse_iOS_got@PAGEOFF
-ldr x16, [x16, #328]
-.word 0xf90013b0
-.word 0xf94013b0
-.word 0xf9400210
-.word 0xf90017b0
-.word 0xf9401ba0
-bl _p_51
-.word 0xf9001fa0
-.word 0xf9401fa0
-.word 0xb9800000
-.word 0xd2800000
-.word 0xf90023bf
-.word 0xf94013b1
-.word 0xf9405631
-.word 0xb4000051
-.word 0xf9400231
-.word 0xf94017b0
-.word 0xf9400210
-.word 0xf94013b1
-.word 0xf9406e31
-.word 0xb4000051
-.word 0xf9400231
-.word 0xd287db80
-.word 0xf2a00020
-.word 0xd287db80
-.word 0xf2a00020
-bl _p_35
-.word 0xaa0003e1
-.word 0xd2806b80
-.word 0xf2a04000
-.word 0xd2806b80
-.word 0xf2a04000
-bl _mono_create_corlib_exception_1
-bl _p_36
-.word 0xf94013b1
-.word 0xf940ae31
-.word 0xb4000051
-.word 0xf9400231
-.word 0x910003bf
-.word 0xa8c57bfd
-.word 0xd65f03c0
-
-Lme_19:
-.text
-	.align 4
-	.no_dead_strip System_Array_InternalArray__ICollection_Contains_T_T
-System_Array_InternalArray__ICollection_Contains_T_T:
-.word 0xa9b97bfd
-.word 0x910003fd
-.word 0xa90163b7
-.word 0xf90013ba
-.word 0xf90023af
-.word 0xaa0003fa
-.word 0xf90017a1
-
-adrp x16, _mono_aot_mnsuse_iOS_got@PAGE+0
-add x16, x16, _mono_aot_mnsuse_iOS_got@PAGEOFF
-ldr x16, [x16, #336]
-.word 0xf9001bb0
-.word 0xf9401bb0
-.word 0xf9400210
-.word 0xf9001fb0
-.word 0xf94023a0
-bl _p_52
-.word 0xf90027a0
-.word 0xf94027a0
-.word 0xb9800000
-.word 0xd2800000
-.word 0xf9002bbf
-.word 0xf9002fbf
-.word 0xf9401bb1
-.word 0xf9406231
-.word 0xb4000051
-.word 0xf9400231
-.word 0xf9401fb0
-.word 0xf9400210
-.word 0xf9401bb1
-.word 0xf9407a31
-.word 0xb4000051
-.word 0xf9400231
-.word 0xaa1a03e0
-.word 0xaa1a03e0
-bl _p_38
-.word 0x93407c00
-.word 0xf90033a0
-.word 0xf9401bb1
-.word 0xf9409e31
-.word 0xb4000051
-.word 0xf9400231
-.word 0xf94033a0
-.word 0xd2800021
-.word 0xd280003e
-.word 0x6b1e001f
-.word 0x540002ed
-.word 0xf9401bb1
-.word 0xf940c231
-.word 0xb4000051
-.word 0xf9400231
-.word 0xd287e300
-.word 0xf2a00020
-.word 0xd287e300
-.word 0xf2a00020
-bl _p_35
-bl _p_39
-.word 0xf90033a0
-.word 0xf9401bb1
-.word 0xf940ee31
-.word 0xb4000051
-.word 0xf9400231
-.word 0xf94033a1
-.word 0xd2806da0
-.word 0xf2a04000
-.word 0xd2806da0
-.word 0xf2a04000
-bl _mono_create_corlib_exception_1
-bl _p_36
-.word 0xf9401bb1
-.word 0xf9411a31
-.word 0xb4000051
-.word 0xf9400231
-.word 0xaa1a03e0
-.word 0xaa1a03e0
-bl _p_40
-.word 0x93407c00
-.word 0xf90033a0
-.word 0xf9401bb1
-.word 0xf9413e31
-.word 0xb4000051
-.word 0xf9400231
-.word 0xf94033a0
-.word 0xaa0003f8
-.word 0xf9401bb1
-.word 0xf9415631
-.word 0xb4000051
-.word 0xf9400231
-.word 0xd2800017
-.word 0x1400004f
-.word 0xf9401bb1
-.word 0xf9416e31
-.word 0xb4000051
-.word 0xf9400231
-.word 0xaa1a03e0
-.word 0xaa1703e0
-.word 0x910163a0
-.word 0xf90033a0
-.word 0xf94023a0
-bl _p_53
-.word 0xf90037a0
-.word 0xf94023a0
-bl _p_54
-.word 0xaa0003e3
-.word 0xf94033a2
-.word 0xf94037af
-.word 0xaa1a03e0
-.word 0xaa1703e1
-.word 0xd63f0060
-.word 0xf9401bb1
-.word 0xf941ba31
-.word 0xb4000051
-.word 0xf9400231
-.word 0xf94017a0
-.word 0xb5000260
-.word 0xf9401bb1
-.word 0xf941d231
-.word 0xb4000051
-.word 0xf9400231
-.word 0xf9402fa0
-.word 0xb5000100
-.word 0xf9401bb1
-.word 0xf941ea31
-.word 0xb4000051
-.word 0xf9400231
-.word 0xd2800020
-.word 0xd2800020
-.word 0x14000039
-.word 0xf9401bb1
-.word 0xf9420631
-.word 0xb4000051
-.word 0xf9400231
-.word 0x1400001b
-.word 0xf9401bb1
-.word 0xf9421a31
-.word 0xb4000051
-.word 0xf9400231
-.word 0x9100a3a0
-.word 0xf9402fa1
-.word 0xf94017a2
-.word 0xaa0203e0
-.word 0xf9400042
-.word 0xf9402850
-.word 0xd63f0200
-.word 0x53001c00
-.word 0xf90033a0
-.word 0xf9401bb1
-.word 0xf9424e31
-.word 0xb4000051
-.word 0xf9400231
-.word 0xf94033a0
-.word 0x34000100
-.word 0xf9401bb1
-.word 0xf9426631
-.word 0xb4000051
-.word 0xf9400231
-.word 0xd2800020
-.word 0xd2800020
-.word 0x1400001a
-.word 0xf9401fb0
-.word 0xf9400210
-.word 0xf9401bb1
-.word 0xf9428a31
-.word 0xb4000051
-.word 0xf9400231
-.word 0xaa1703e0
-.word 0x110006e0
-.word 0xaa0003f7
-.word 0xf9401fb0
-.word 0xf9400210
-.word 0xf9401bb1
-.word 0xf942ae31
-.word 0xb4000051
-.word 0xf9400231
-.word 0xaa1703e0
-.word 0xaa1803e0
-.word 0x6b1802ff
-.word 0x54fff52b
-.word 0xf9401bb1
-.word 0xf942ce31
-.word 0xb4000051
-.word 0xf9400231
-.word 0xd2800000
-.word 0xd2800000
-.word 0xf9401bb1
-.word 0xf942e631
-.word 0xb4000051
-.word 0xf9400231
-.word 0xa94163b7
-.word 0xf94013ba
-.word 0x910003bf
-.word 0xa8c77bfd
-.word 0xd65f03c0
-
-Lme_1a:
-.text
-	.align 4
-	.no_dead_strip System_Array_InternalArray__ICollection_CopyTo_T_T___int
-System_Array_InternalArray__ICollection_CopyTo_T_T___int:
-.word 0xa9b17bfd
-.word 0x910003fd
-.word 0xa90153b3
-.word 0xf90013b5
-.word 0xa902e7b8
-.word 0xf9001fba
-.word 0xf9002faf
-.word 0xaa0003f8
-.word 0xaa0103f9
-.word 0xf90023a2
-
-adrp x16, _mono_aot_mnsuse_iOS_got@PAGE+0
-add x16, x16, _mono_aot_mnsuse_iOS_got@PAGEOFF
-ldr x16, [x16, #344]
-.word 0xf90027b0
-.word 0xf94027b0
-.word 0xf9400210
-.word 0xf9002bb0
-.word 0xf9402fa0
-bl _p_55
-.word 0xf90033a0
-.word 0xf94033a0
-.word 0xb9800000
-.word 0xd2800000
-.word 0xf90037bf
-.word 0xf94027b1
-.word 0xf9406a31
-.word 0xb4000051
-.word 0xf9400231
-.word 0xf9402bb0
-.word 0xf9400210
-.word 0xf94027b1
-.word 0xf9408231
-.word 0xb4000051
-.word 0xf9400231
-.word 0xaa1903e0
-.word 0xb50001f9
-.word 0xf94027b1
-.word 0xf9409a31
-.word 0xb4000051
-.word 0xf9400231
-.word 0xd281b400
-.word 0xd281b400
-bl _p_35
-.word 0xaa0003e1
-.word 0xd28060a0
-.word 0xf2a04000
-.word 0xd28060a0
-.word 0xf2a04000
-bl _mono_create_corlib_exception_1
-bl _p_36
-.word 0xf94027b1
-.word 0xf940d231
-.word 0xb4000051
-.word 0xf9400231
-.word 0xaa1803e0
-.word 0xaa1803e0
-bl _p_38
-.word 0x93407c00
-.word 0xf90073a0
-.word 0xf94027b1
-.word 0xf940f631
-.word 0xb4000051
-.word 0xf9400231
-.word 0xf94073a0
-.word 0xd2800021
-.word 0xd280003e
-.word 0x6b1e001f
-.word 0x540002ed
-.word 0xf94027b1
-.word 0xf9411a31
-.word 0xb4000051
-.word 0xf9400231
-.word 0xd287e300
-.word 0xf2a00020
-.word 0xd287e300
-.word 0xf2a00020
-bl _p_35
-bl _p_39
-.word 0xf90073a0
-.word 0xf94027b1
-.word 0xf9414631
-.word 0xb4000051
-.word 0xf9400231
-.word 0xf94073a1
-.word 0xd2806da0
-.word 0xf2a04000
-.word 0xd2806da0
-.word 0xf2a04000
-bl _mono_create_corlib_exception_1
-bl _p_36
-.word 0xf94027b1
-.word 0xf9417231
-.word 0xb4000051
-.word 0xf9400231
-.word 0xb98043a0
-.word 0xf9003ba0
-.word 0xaa1803f5
-.word 0xd2800000
-.word 0xf9400b14
-.word 0xeb1f029f
-.word 0x54000060
-.word 0xb9800293
-.word 0x14000002
-.word 0xb9801ab3
-.word 0xf94027b1
-.word 0xf941aa31
-.word 0xb4000051
-.word 0xf9400231
-.word 0xf9403ba0
-.word 0xb130000
-.word 0xf9003fa0
-.word 0xaa1903e0
-.word 0xd2800000
-.word 0xf9400b20
-.word 0xf90043a0
-.word 0xeb1f001f
-.word 0x54000080
-.word 0xf94043a0
-.word 0xb980041a
-.word 0x14000002
-.word 0xd280001a
-.word 0xf94027b1
-.word 0xf941ee31
-.word 0xb4000051
-.word 0xf9400231
-.word 0xf90047b9
-.word 0xd2800000
-.word 0xf94047a0
-.word 0xf9400800
-.word 0xf9004ba0
-.word 0xeb1f001f
-.word 0x540000a0
-.word 0xf9404ba0
-.word 0xb9800000
-.word 0xf9004fa0
-.word 0x14000004
-.word 0xf94047a0
-.word 0xb9801800
-.word 0xf9004fa0
-.word 0xf9404fa0
-.word 0xf9004fa0
-.word 0xf94027b1
-.word 0xf9423e31
-.word 0xb4000051
-.word 0xf9400231
-.word 0xf9404fa0
-.word 0xb000341
-.word 0xf9403fa0
-.word 0x6b01001f
-.word 0x5400022d
-.word 0xf94027b1
-.word 0xf9426231
-.word 0xb4000051
-.word 0xf9400231
-.word 0xd287ee00
-.word 0xf2a00020
-.word 0xd287ee00
-.word 0xf2a00020
-bl _p_35
-.word 0xaa0003e1
-.word 0xd2806080
-.word 0xf2a04000
-.word 0xd2806080
-.word 0xf2a04000
-bl _mono_create_corlib_exception_1
-bl _p_36
-.word 0xf94027b1
-.word 0xf942a231
-.word 0xb4000051
-.word 0xf9400231
-.word 0xaa1903e0
-.word 0xaa1903e0
-.word 0xf940033e
-bl _p_38
-.word 0x93407c00
-.word 0xf90073a0
-.word 0xf94027b1
-.word 0xf942ca31
-.word 0xb4000051
-.word 0xf9400231
-.word 0xf94073a0
-.word 0xd2800021
-.word 0xd280003e
-.word 0x6b1e001f
-.word 0x540002ed
-.word 0xf94027b1
-.word 0xf942ee31
-.word 0xb4000051
-.word 0xf9400231
-.word 0xd287e300
-.word 0xf2a00020
-.word 0xd287e300
-.word 0xf2a00020
-bl _p_35
-bl _p_39
-.word 0xf90073a0
-.word 0xf94027b1
-.word 0xf9431a31
-.word 0xb4000051
-.word 0xf9400231
-.word 0xf94073a1
-.word 0xd2806da0
-.word 0xf2a04000
-.word 0xd2806da0
-.word 0xf2a04000
-bl _mono_create_corlib_exception_1
-bl _p_36
-.word 0xf94027b1
-.word 0xf9434631
-.word 0xb4000051
-.word 0xf9400231
-.word 0xb98043a0
-.word 0xd2800001
-.word 0x6b1f001f
-.word 0x5400038a
-.word 0xf94027b1
-.word 0xf9436631
-.word 0xb4000051
-.word 0xf9400231
-.word 0xd280e820
-.word 0xd280e820
-bl _p_35
-.word 0xf90073a0
-.word 0xd2880660
-.word 0xf2a00020
-.word 0xd2880660
-.word 0xf2a00020
-bl _p_35
-bl _p_39
-.word 0xf90077a0
-.word 0xf94027b1
-.word 0xf943a231
-.word 0xb4000051
-.word 0xf9400231
-.word 0xf94073a1
-.word 0xf94077a2
-.word 0xd28060c0
-.word 0xf2a04000
-.word 0xd28060c0
-.word 0xf2a04000
-bl _mono_create_corlib_exception_2
-bl _p_36
-.word 0xf94027b1
-.word 0xf943d231
-.word 0xb4000051
-.word 0xf9400231
-.word 0xf90053b8
-.word 0xaa1803e0
-.word 0xd2800000
-.word 0xf9400b00
-.word 0xf90057a0
-.word 0xeb1f001f
-.word 0x540000a0
-.word 0xf94057a0
-.word 0xb9800400
-.word 0xf9005ba0
-.word 0x14000002
-.word 0xf9005bbf
-.word 0xf9405ba0
-.word 0xf9005ba0
-.word 0xf94027b1
-.word 0xf9441a31
-.word 0xb4000051
-.word 0xf9400231
-.word 0xf9005fb9
-.word 0xb98043a0
-.word 0xf90063a0
-.word 0xf90067b8
-.word 0xd2800000
-.word 0xf94067a0
-.word 0xf9400800
-.word 0xf9006ba0
-.word 0xeb1f001f
-.word 0x540000a0
-.word 0xf9406ba0
-.word 0xb9800000
-.word 0xf9006fa0
-.word 0x14000004
-.word 0xf94067a0
-.word 0xb9801800
-.word 0xf9006fa0
-.word 0xf9406fa0
-.word 0xf9006fa0
-.word 0xf94027b1
-.word 0xf9447631
-.word 0xb4000051
-.word 0xf9400231
-.word 0xf94053a0
-.word 0xf9405ba1
-.word 0xf9405fa2
-.word 0xf94063a3
-.word 0xf9406fa4
-bl _p_56
-.word 0xf94027b1
-.word 0xf9449e31
-.word 0xb4000051
-.word 0xf9400231
-.word 0xf94027b1
-.word 0xf944ae31
-.word 0xb4000051
-.word 0xf9400231
-.word 0xa94153b3
-.word 0xf94013b5
-.word 0xa942e7b8
-.word 0xf9401fba
 .word 0x910003bf
 .word 0xa8cf7bfd
 .word 0xd65f03c0
 
-Lme_1b:
+Lme_8:
 .text
 	.align 4
 	.no_dead_strip Xamarin_Forms_Device_OnPlatform_int_int_int_int
@@ -2639,7 +825,7 @@ Xamarin_Forms_Device_OnPlatform_int_int_int_int:
 
 adrp x16, _mono_aot_mnsuse_iOS_got@PAGE+0
 add x16, x16, _mono_aot_mnsuse_iOS_got@PAGEOFF
-ldr x16, [x16, #352]
+ldr x16, [x16, #176]
 .word 0xf9001fb0
 .word 0xf9401fb0
 .word 0xf9400210
@@ -2654,7 +840,7 @@ ldr x16, [x16, #352]
 .word 0xf9405a31
 .word 0xb4000051
 .word 0xf9400231
-bl _p_57
+bl _p_24
 .word 0x93407c00
 .word 0xf9002fa0
 .word 0xf9401fb1
@@ -2679,7 +865,7 @@ bl _p_57
 
 adrp x16, _mono_aot_mnsuse_iOS_got@PAGE+0
 add x16, x16, _mono_aot_mnsuse_iOS_got@PAGEOFF
-ldr x0, [x16, #360]
+ldr x0, [x16, #184]
 .word 0x8b010000
 .word 0xf9400000
 .word 0xd61f0000
@@ -2751,7 +937,7 @@ ldr x0, [x16, #360]
 .word 0xa8c67bfd
 .word 0xd65f03c0
 
-Lme_1c:
+Lme_a:
 .text
 	.align 3
 jit_code_end:
@@ -2771,24 +957,6 @@ bl mnsuse_App_OnSleep
 bl mnsuse_App_OnResume
 bl mnsuse_WebViewDemoPage__ctor
 bl method_addresses
-bl System_Array_InternalArray__IEnumerable_GetEnumerator_T
-bl System_Array_InternalArray__Insert_T_int_T
-bl System_Array_InternalArray__RemoveAt_int
-bl System_Array_InternalArray__IndexOf_T_T
-bl System_Array_InternalArray__get_Item_T_int
-bl System_Array_InternalArray__set_Item_T_int_T
-bl method_addresses
-bl method_addresses
-bl method_addresses
-bl method_addresses
-bl wrapper_delegate_invoke_System_Func_2_Xamarin_Forms_Element_bool_invoke_TResult_T_Xamarin_Forms_Element
-bl System_Array_InternalArray__ICollection_get_Count
-bl System_Array_InternalArray__ICollection_get_IsReadOnly
-bl System_Array_InternalArray__ICollection_Clear
-bl System_Array_InternalArray__ICollection_Add_T_T
-bl System_Array_InternalArray__ICollection_Remove_T_T
-bl System_Array_InternalArray__ICollection_Contains_T_T
-bl System_Array_InternalArray__ICollection_CopyTo_T_T___int
 bl Xamarin_Forms_Device_OnPlatform_int_int_int_int
 method_addresses_end:
 
@@ -2807,37 +975,23 @@ unbox_trampoline_addresses:
 	.align 3
 method_info_offsets:
 
-	.long 29,10,3,2
-	.short 0, 14, 28
-	.byte 1,3,4,3,4,4,3,3,3,255,255,255,255,228,44,3,3,3,3,3,255,255,255,255,197,0,0,0,64,4,3,3
-	.byte 3,3,3,3,3
+	.long 11,10,2,2
+	.short 0, 14
+	.byte 1,3,4,3,4,4,3,3,3,255,255,255,255,228,37
 .section __TEXT, __const
 	.align 3
 extra_method_table:
 
-	.long 37,0,0,0,0,0,0,0
-	.long 0,0,258,21,0,0,0,0
-	.long 0,0,0,0,0,0,191,14
-	.long 0,0,0,0,104,10,0,0
-	.long 0,0,0,0,0,304,25,0
-	.long 132,11,0,0,0,0,0,0
-	.long 0,0,0,0,0,0,0,220
-	.long 15,0,162,13,0,0,0,0
-	.long 380,28,0,333,26,0,248,20
-	.long 0,0,0,0,0,0,0,149
-	.long 12,0,0,0,0,0,0,0
-	.long 260,22,0,262,23,0,362,27
-	.long 0,0,0,0,275,24,0,0
+	.long 11,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
+	.long 0,0,0,41,10,0,0,0
+	.long 0,0,0,0,0,0,0,0
+	.long 0,0
 .section __TEXT, __const
 	.align 3
 extra_method_info_offsets:
 
-	.long 19,10,104,11,132,12,149,13
-	.long 162,14,191,15,220,16,0,17
-	.long 0,18,0,19,0,20,248,21
-	.long 258,22,260,23,262,24,275,25
-	.long 304,26,333,27,362,28,380
+	.long 1,10,41
 .section __TEXT, __const
 	.align 3
 class_name_table:
@@ -2850,39 +1004,31 @@ class_name_table:
 	.align 3
 got_info_offsets:
 
-	.long 46,10,5,2
-	.short 0, 11, 22, 33, 44
-	.byte 129,135,2,1,1,1,1,1,3,1,1,129,151,1,4,1,1,1,1,5,5,3,129,180,12,5,5,3,7,7,11,1
-	.byte 1,129,233,1,1,1,4,4,1,1,1,1,129,249,1,1,1,1,1
+	.long 24,10,3,2
+	.short 0, 10, 20
+	.byte 52,2,1,1,1,1,1,3,1,1,68,1,4,1,1,1,1,4,4,3,94,12,4,1
 .section __TEXT, __const
 	.align 3
 ex_info_offsets:
 
-	.long 29,10,3,2
-	.short 0, 16, 33
-	.byte 133,230,31,66,35,128,145,90,38,38,38,255,255,255,248,57,138,51,119,111,59,129,163,128,173,255,255,255,242,92,0,0
-	.byte 0,142,170,128,247,46,35,54,107,107,129,85,129,240
+	.long 11,10,2,2
+	.short 0, 16
+	.byte 128,236,31,66,35,128,145,90,38,38,38,255,255,255,253,51,132,73
 .section __TEXT, __const
 	.align 3
 unwind_info:
 
 	.byte 13,12,31,0,68,14,48,157,6,158,5,68,13,29,13,12,31,0,68,14,64,157,8,158,7,68,13,29,18,12,31,0
 	.byte 68,14,112,157,14,158,13,68,13,29,68,151,12,152,11,16,12,31,0,68,14,64,157,8,158,7,68,13,29,68,154,6
-	.byte 29,12,31,0,68,14,208,3,157,58,158,57,68,13,29,68,149,56,150,55,68,151,54,152,53,68,153,52,154,51,14,12
-	.byte 31,0,68,14,128,1,157,16,158,15,68,13,29,13,12,31,0,68,14,80,157,10,158,9,68,13,29,27,12,31,0,68
-	.byte 14,176,1,157,22,158,21,68,13,29,68,148,20,149,19,68,151,18,152,17,68,154,16,18,12,31,0,68,14,96,157,12
-	.byte 158,11,68,13,29,68,153,10,154,9,32,12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,147,16,148,15,68,149
-	.byte 14,150,13,68,151,12,68,153,11,154,10,28,12,31,0,68,14,96,157,12,158,11,68,13,29,68,149,10,150,9,68,151
-	.byte 8,152,7,68,153,6,154,5,21,12,31,0,68,14,112,157,14,158,13,68,13,29,68,151,12,152,11,68,154,10,30,12
-	.byte 31,0,68,14,240,1,157,30,158,29,68,13,29,68,147,28,148,27,68,149,26,68,152,25,153,24,68,154,23,21,12,31
-	.byte 0,68,14,96,157,12,158,11,68,13,29,68,150,10,151,9,68,152,8
+	.byte 27,12,31,0,68,14,240,1,157,30,158,29,68,13,29,68,150,28,151,27,68,152,26,153,25,68,154,24,21,12,31,0
+	.byte 68,14,96,157,12,158,11,68,13,29,68,150,10,151,9,68,152,8
 .section __TEXT, __const
 	.align 3
 class_info_offsets:
 
 	.long 5,10,1,2
 	.short 0
-	.byte 148,230,7,15,128,219,120
+	.byte 132,235,7,23,128,219,64
 
 .text
 	.align 4
@@ -2893,470 +1039,199 @@ plt_UIKit_UIApplication_Main_string___string_string:
 _p_1:
 adrp x16, _mono_aot_mnsuse_iOS_got@PAGE+0
 add x16, x16, _mono_aot_mnsuse_iOS_got@PAGEOFF
-ldr x16, [x16, #376]
+ldr x16, [x16, #200]
 br x16
-.word 518
+.word 119
 	.no_dead_strip plt_Xamarin_Forms_Platform_iOS_FormsApplicationDelegate__ctor
 plt_Xamarin_Forms_Platform_iOS_FormsApplicationDelegate__ctor:
 _p_2:
 adrp x16, _mono_aot_mnsuse_iOS_got@PAGE+0
 add x16, x16, _mono_aot_mnsuse_iOS_got@PAGEOFF
-ldr x16, [x16, #384]
+ldr x16, [x16, #208]
 br x16
-.word 523
+.word 124
 	.no_dead_strip plt_Xamarin_Forms_Forms_Init
 plt_Xamarin_Forms_Forms_Init:
 _p_3:
 adrp x16, _mono_aot_mnsuse_iOS_got@PAGE+0
 add x16, x16, _mono_aot_mnsuse_iOS_got@PAGEOFF
-ldr x16, [x16, #392]
+ldr x16, [x16, #216]
 br x16
-.word 528
+.word 129
 	.no_dead_strip plt_Xamarin_Calabash_Start
 plt_Xamarin_Calabash_Start:
 _p_4:
 adrp x16, _mono_aot_mnsuse_iOS_got@PAGE+0
 add x16, x16, _mono_aot_mnsuse_iOS_got@PAGEOFF
-ldr x16, [x16, #400]
+ldr x16, [x16, #224]
 br x16
-.word 533
+.word 134
 	.no_dead_strip plt__jit_icall_mono_object_new_fast
 plt__jit_icall_mono_object_new_fast:
 _p_5:
 adrp x16, _mono_aot_mnsuse_iOS_got@PAGE+0
 add x16, x16, _mono_aot_mnsuse_iOS_got@PAGEOFF
-ldr x16, [x16, #408]
+ldr x16, [x16, #232]
 br x16
-.word 538
+.word 139
 	.no_dead_strip plt_mnsuse_App__ctor
 plt_mnsuse_App__ctor:
 _p_6:
 adrp x16, _mono_aot_mnsuse_iOS_got@PAGE+0
 add x16, x16, _mono_aot_mnsuse_iOS_got@PAGEOFF
-ldr x16, [x16, #416]
+ldr x16, [x16, #240]
 br x16
-.word 561
+.word 162
 	.no_dead_strip plt_Xamarin_Forms_Platform_iOS_FormsApplicationDelegate_LoadApplication_Xamarin_Forms_Application
 plt_Xamarin_Forms_Platform_iOS_FormsApplicationDelegate_LoadApplication_Xamarin_Forms_Application:
 _p_7:
 adrp x16, _mono_aot_mnsuse_iOS_got@PAGE+0
 add x16, x16, _mono_aot_mnsuse_iOS_got@PAGEOFF
-ldr x16, [x16, #424]
+ldr x16, [x16, #248]
 br x16
-.word 566
+.word 167
 	.no_dead_strip plt_Xamarin_Forms_Platform_iOS_FormsApplicationDelegate_FinishedLaunching_UIKit_UIApplication_Foundation_NSDictionary
 plt_Xamarin_Forms_Platform_iOS_FormsApplicationDelegate_FinishedLaunching_UIKit_UIApplication_Foundation_NSDictionary:
 _p_8:
 adrp x16, _mono_aot_mnsuse_iOS_got@PAGE+0
 add x16, x16, _mono_aot_mnsuse_iOS_got@PAGEOFF
-ldr x16, [x16, #432]
+ldr x16, [x16, #256]
 br x16
-.word 571
+.word 172
 	.no_dead_strip plt_Xamarin_Forms_Application__ctor
 plt_Xamarin_Forms_Application__ctor:
 _p_9:
 adrp x16, _mono_aot_mnsuse_iOS_got@PAGE+0
 add x16, x16, _mono_aot_mnsuse_iOS_got@PAGEOFF
-ldr x16, [x16, #440]
+ldr x16, [x16, #264]
 br x16
-.word 576
+.word 177
 	.no_dead_strip plt_mnsuse_WebViewDemoPage__ctor
 plt_mnsuse_WebViewDemoPage__ctor:
 _p_10:
 adrp x16, _mono_aot_mnsuse_iOS_got@PAGE+0
 add x16, x16, _mono_aot_mnsuse_iOS_got@PAGEOFF
-ldr x16, [x16, #448]
+ldr x16, [x16, #272]
 br x16
-.word 581
+.word 180
 	.no_dead_strip plt_Xamarin_Forms_Application_set_MainPage_Xamarin_Forms_Page
 plt_Xamarin_Forms_Application_set_MainPage_Xamarin_Forms_Page:
 _p_11:
 adrp x16, _mono_aot_mnsuse_iOS_got@PAGE+0
 add x16, x16, _mono_aot_mnsuse_iOS_got@PAGEOFF
-ldr x16, [x16, #456]
+ldr x16, [x16, #280]
 br x16
-.word 586
+.word 185
 	.no_dead_strip plt_Xamarin_Forms_ContentPage__ctor
 plt_Xamarin_Forms_ContentPage__ctor:
 _p_12:
 adrp x16, _mono_aot_mnsuse_iOS_got@PAGE+0
 add x16, x16, _mono_aot_mnsuse_iOS_got@PAGEOFF
-ldr x16, [x16, #464]
+ldr x16, [x16, #288]
 br x16
-.word 591
+.word 188
 	.no_dead_strip plt_Xamarin_Forms_WebView__ctor
 plt_Xamarin_Forms_WebView__ctor:
 _p_13:
 adrp x16, _mono_aot_mnsuse_iOS_got@PAGE+0
 add x16, x16, _mono_aot_mnsuse_iOS_got@PAGEOFF
-ldr x16, [x16, #472]
+ldr x16, [x16, #296]
 br x16
-.word 596
+.word 191
 	.no_dead_strip plt_Xamarin_Forms_UrlWebViewSource__ctor
 plt_Xamarin_Forms_UrlWebViewSource__ctor:
 _p_14:
 adrp x16, _mono_aot_mnsuse_iOS_got@PAGE+0
 add x16, x16, _mono_aot_mnsuse_iOS_got@PAGEOFF
-ldr x16, [x16, #480]
+ldr x16, [x16, #304]
 br x16
-.word 601
+.word 194
 	.no_dead_strip plt_Xamarin_Forms_UrlWebViewSource_set_Url_string
 plt_Xamarin_Forms_UrlWebViewSource_set_Url_string:
 _p_15:
 adrp x16, _mono_aot_mnsuse_iOS_got@PAGE+0
 add x16, x16, _mono_aot_mnsuse_iOS_got@PAGEOFF
-ldr x16, [x16, #488]
+ldr x16, [x16, #312]
 br x16
-.word 606
+.word 197
 	.no_dead_strip plt_Xamarin_Forms_WebView_set_Source_Xamarin_Forms_WebViewSource
 plt_Xamarin_Forms_WebView_set_Source_Xamarin_Forms_WebViewSource:
 _p_16:
 adrp x16, _mono_aot_mnsuse_iOS_got@PAGE+0
 add x16, x16, _mono_aot_mnsuse_iOS_got@PAGEOFF
-ldr x16, [x16, #496]
+ldr x16, [x16, #320]
 br x16
-.word 611
+.word 200
 	.no_dead_strip plt_Xamarin_Forms_View_set_VerticalOptions_Xamarin_Forms_LayoutOptions
 plt_Xamarin_Forms_View_set_VerticalOptions_Xamarin_Forms_LayoutOptions:
 _p_17:
 adrp x16, _mono_aot_mnsuse_iOS_got@PAGE+0
 add x16, x16, _mono_aot_mnsuse_iOS_got@PAGEOFF
-ldr x16, [x16, #504]
+ldr x16, [x16, #328]
 br x16
-.word 616
-	.no_dead_strip plt_Xamarin_Forms_View_set_HorizontalOptions_Xamarin_Forms_LayoutOptions
-plt_Xamarin_Forms_View_set_HorizontalOptions_Xamarin_Forms_LayoutOptions:
+.word 203
+	.no_dead_strip plt_Xamarin_Forms_Device_OnPlatform_int_int_int_int
+plt_Xamarin_Forms_Device_OnPlatform_int_int_int_int:
 _p_18:
 adrp x16, _mono_aot_mnsuse_iOS_got@PAGE+0
 add x16, x16, _mono_aot_mnsuse_iOS_got@PAGEOFF
-ldr x16, [x16, #512]
+ldr x16, [x16, #336]
 br x16
-.word 621
-	.no_dead_strip plt_Xamarin_Forms_Device_OnPlatform_int_int_int_int
-plt_Xamarin_Forms_Device_OnPlatform_int_int_int_int:
+.word 206
+	.no_dead_strip plt_Xamarin_Forms_Thickness__ctor_double_double_double_double
+plt_Xamarin_Forms_Thickness__ctor_double_double_double_double:
 _p_19:
 adrp x16, _mono_aot_mnsuse_iOS_got@PAGE+0
 add x16, x16, _mono_aot_mnsuse_iOS_got@PAGEOFF
-ldr x16, [x16, #520]
+ldr x16, [x16, #344]
 br x16
-.word 626
-	.no_dead_strip plt_Xamarin_Forms_Thickness__ctor_double_double_double_double
-plt_Xamarin_Forms_Thickness__ctor_double_double_double_double:
+.word 218
+	.no_dead_strip plt_Xamarin_Forms_Page_set_Padding_Xamarin_Forms_Thickness
+plt_Xamarin_Forms_Page_set_Padding_Xamarin_Forms_Thickness:
 _p_20:
 adrp x16, _mono_aot_mnsuse_iOS_got@PAGE+0
 add x16, x16, _mono_aot_mnsuse_iOS_got@PAGEOFF
-ldr x16, [x16, #528]
+ldr x16, [x16, #352]
 br x16
-.word 638
-	.no_dead_strip plt_Xamarin_Forms_Page_set_Padding_Xamarin_Forms_Thickness
-plt_Xamarin_Forms_Page_set_Padding_Xamarin_Forms_Thickness:
+.word 221
+	.no_dead_strip plt_Xamarin_Forms_ContentView__ctor
+plt_Xamarin_Forms_ContentView__ctor:
 _p_21:
 adrp x16, _mono_aot_mnsuse_iOS_got@PAGE+0
 add x16, x16, _mono_aot_mnsuse_iOS_got@PAGEOFF
-ldr x16, [x16, #536]
+ldr x16, [x16, #360]
 br x16
-.word 643
-	.no_dead_strip plt_Xamarin_Forms_StackLayout__ctor
-plt_Xamarin_Forms_StackLayout__ctor:
+.word 224
+	.no_dead_strip plt_Xamarin_Forms_ContentView_set_Content_Xamarin_Forms_View
+plt_Xamarin_Forms_ContentView_set_Content_Xamarin_Forms_View:
 _p_22:
 adrp x16, _mono_aot_mnsuse_iOS_got@PAGE+0
 add x16, x16, _mono_aot_mnsuse_iOS_got@PAGEOFF
-ldr x16, [x16, #544]
+ldr x16, [x16, #368]
 br x16
-.word 648
-	.no_dead_strip plt_Xamarin_Forms_Layout_1_Xamarin_Forms_View_get_Children
-plt_Xamarin_Forms_Layout_1_Xamarin_Forms_View_get_Children:
+.word 227
+	.no_dead_strip plt_Xamarin_Forms_ContentPage_set_Content_Xamarin_Forms_View
+plt_Xamarin_Forms_ContentPage_set_Content_Xamarin_Forms_View:
 _p_23:
 adrp x16, _mono_aot_mnsuse_iOS_got@PAGE+0
 add x16, x16, _mono_aot_mnsuse_iOS_got@PAGEOFF
-ldr x16, [x16, #552]
+ldr x16, [x16, #376]
 br x16
-.word 653
-	.no_dead_strip plt_Xamarin_Forms_Label__ctor
-plt_Xamarin_Forms_Label__ctor:
+.word 230
+	.no_dead_strip plt_Xamarin_Forms_Device_get_OS
+plt_Xamarin_Forms_Device_get_OS:
 _p_24:
 adrp x16, _mono_aot_mnsuse_iOS_got@PAGE+0
 add x16, x16, _mono_aot_mnsuse_iOS_got@PAGEOFF
-ldr x16, [x16, #560]
+ldr x16, [x16, #384]
 br x16
-.word 664
-	.no_dead_strip plt_Xamarin_Forms_Label_set_Text_string
-plt_Xamarin_Forms_Label_set_Text_string:
-_p_25:
-adrp x16, _mono_aot_mnsuse_iOS_got@PAGE+0
-add x16, x16, _mono_aot_mnsuse_iOS_got@PAGEOFF
-ldr x16, [x16, #568]
-br x16
-.word 669
-	.no_dead_strip plt_Xamarin_Forms_Label_set_FontAttributes_Xamarin_Forms_FontAttributes
-plt_Xamarin_Forms_Label_set_FontAttributes_Xamarin_Forms_FontAttributes:
-_p_26:
-adrp x16, _mono_aot_mnsuse_iOS_got@PAGE+0
-add x16, x16, _mono_aot_mnsuse_iOS_got@PAGEOFF
-ldr x16, [x16, #576]
-br x16
-.word 674
-	.no_dead_strip plt_Xamarin_Forms_VisualElement_set_BackgroundColor_Xamarin_Forms_Color
-plt_Xamarin_Forms_VisualElement_set_BackgroundColor_Xamarin_Forms_Color:
-_p_27:
-adrp x16, _mono_aot_mnsuse_iOS_got@PAGE+0
-add x16, x16, _mono_aot_mnsuse_iOS_got@PAGEOFF
-ldr x16, [x16, #584]
-br x16
-.word 679
-	.no_dead_strip plt_Xamarin_Forms_Label_set_TextColor_Xamarin_Forms_Color
-plt_Xamarin_Forms_Label_set_TextColor_Xamarin_Forms_Color:
-_p_28:
-adrp x16, _mono_aot_mnsuse_iOS_got@PAGE+0
-add x16, x16, _mono_aot_mnsuse_iOS_got@PAGEOFF
-ldr x16, [x16, #592]
-br x16
-.word 684
-	.no_dead_strip plt_Xamarin_Forms_ContentPage_set_Content_Xamarin_Forms_View
-plt_Xamarin_Forms_ContentPage_set_Content_Xamarin_Forms_View:
-_p_29:
-adrp x16, _mono_aot_mnsuse_iOS_got@PAGE+0
-add x16, x16, _mono_aot_mnsuse_iOS_got@PAGEOFF
-ldr x16, [x16, #600]
-br x16
-.word 689
-	.no_dead_strip plt__rgctx_fetch_0
-plt__rgctx_fetch_0:
-_p_30:
-adrp x16, _mono_aot_mnsuse_iOS_got@PAGE+0
-add x16, x16, _mono_aot_mnsuse_iOS_got@PAGEOFF
-ldr x16, [x16, #608]
-br x16
-.word 711
-	.no_dead_strip plt__rgctx_fetch_1
-plt__rgctx_fetch_1:
-_p_31:
-adrp x16, _mono_aot_mnsuse_iOS_got@PAGE+0
-add x16, x16, _mono_aot_mnsuse_iOS_got@PAGEOFF
-ldr x16, [x16, #616]
-br x16
-.word 743
-	.no_dead_strip plt__rgctx_fetch_2
-plt__rgctx_fetch_2:
-_p_32:
-adrp x16, _mono_aot_mnsuse_iOS_got@PAGE+0
-add x16, x16, _mono_aot_mnsuse_iOS_got@PAGEOFF
-ldr x16, [x16, #624]
-br x16
-.word 751
-	.no_dead_strip plt__jit_icall_mono_object_new_specific
-plt__jit_icall_mono_object_new_specific:
-_p_33:
-adrp x16, _mono_aot_mnsuse_iOS_got@PAGE+0
-add x16, x16, _mono_aot_mnsuse_iOS_got@PAGEOFF
-ldr x16, [x16, #632]
-br x16
-.word 773
-	.no_dead_strip plt__rgctx_fetch_3
-plt__rgctx_fetch_3:
-_p_34:
-adrp x16, _mono_aot_mnsuse_iOS_got@PAGE+0
-add x16, x16, _mono_aot_mnsuse_iOS_got@PAGEOFF
-ldr x16, [x16, #640]
-br x16
-.word 817
-	.no_dead_strip plt__jit_icall_mono_helper_ldstr_mscorlib
-plt__jit_icall_mono_helper_ldstr_mscorlib:
-_p_35:
-adrp x16, _mono_aot_mnsuse_iOS_got@PAGE+0
-add x16, x16, _mono_aot_mnsuse_iOS_got@PAGEOFF
-ldr x16, [x16, #648]
-br x16
-.word 842
-	.no_dead_strip plt__jit_icall_mono_arch_throw_exception
-plt__jit_icall_mono_arch_throw_exception:
-_p_36:
-adrp x16, _mono_aot_mnsuse_iOS_got@PAGE+0
-add x16, x16, _mono_aot_mnsuse_iOS_got@PAGEOFF
-ldr x16, [x16, #656]
-br x16
-.word 871
-	.no_dead_strip plt__rgctx_fetch_4
-plt__rgctx_fetch_4:
-_p_37:
-adrp x16, _mono_aot_mnsuse_iOS_got@PAGE+0
-add x16, x16, _mono_aot_mnsuse_iOS_got@PAGEOFF
-ldr x16, [x16, #664]
-br x16
-.word 917
-	.no_dead_strip plt_System_Array_get_Rank
-plt_System_Array_get_Rank:
-_p_38:
-adrp x16, _mono_aot_mnsuse_iOS_got@PAGE+0
-add x16, x16, _mono_aot_mnsuse_iOS_got@PAGEOFF
-ldr x16, [x16, #672]
-br x16
-.word 943
-	.no_dead_strip plt_Locale_GetText_string
-plt_Locale_GetText_string:
-_p_39:
-adrp x16, _mono_aot_mnsuse_iOS_got@PAGE+0
-add x16, x16, _mono_aot_mnsuse_iOS_got@PAGEOFF
-ldr x16, [x16, #680]
-br x16
-.word 946
-	.no_dead_strip plt_System_Array_get_Length
-plt_System_Array_get_Length:
-_p_40:
-adrp x16, _mono_aot_mnsuse_iOS_got@PAGE+0
-add x16, x16, _mono_aot_mnsuse_iOS_got@PAGEOFF
-ldr x16, [x16, #688]
-br x16
-.word 949
-	.no_dead_strip plt__rgctx_fetch_5
-plt__rgctx_fetch_5:
-_p_41:
-adrp x16, _mono_aot_mnsuse_iOS_got@PAGE+0
-add x16, x16, _mono_aot_mnsuse_iOS_got@PAGEOFF
-ldr x16, [x16, #696]
-br x16
-.word 952
-	.no_dead_strip plt__rgctx_fetch_6
-plt__rgctx_fetch_6:
-_p_42:
-adrp x16, _mono_aot_mnsuse_iOS_got@PAGE+0
-add x16, x16, _mono_aot_mnsuse_iOS_got@PAGEOFF
-ldr x16, [x16, #704]
-br x16
-.word 975
-	.no_dead_strip plt__rgctx_fetch_7
-plt__rgctx_fetch_7:
-_p_43:
-adrp x16, _mono_aot_mnsuse_iOS_got@PAGE+0
-add x16, x16, _mono_aot_mnsuse_iOS_got@PAGEOFF
-ldr x16, [x16, #712]
-br x16
-.word 1032
-	.no_dead_strip plt__rgctx_fetch_8
-plt__rgctx_fetch_8:
-_p_44:
-adrp x16, _mono_aot_mnsuse_iOS_got@PAGE+0
-add x16, x16, _mono_aot_mnsuse_iOS_got@PAGEOFF
-ldr x16, [x16, #720]
-br x16
-.word 1058
-	.no_dead_strip plt__rgctx_fetch_9
-plt__rgctx_fetch_9:
-_p_45:
-adrp x16, _mono_aot_mnsuse_iOS_got@PAGE+0
-add x16, x16, _mono_aot_mnsuse_iOS_got@PAGEOFF
-ldr x16, [x16, #728]
-br x16
-.word 1081
-	.no_dead_strip plt__rgctx_fetch_10
-plt__rgctx_fetch_10:
-_p_46:
-adrp x16, _mono_aot_mnsuse_iOS_got@PAGE+0
-add x16, x16, _mono_aot_mnsuse_iOS_got@PAGEOFF
-ldr x16, [x16, #736]
-br x16
-.word 1138
-	.no_dead_strip plt__rgctx_fetch_11
-plt__rgctx_fetch_11:
-_p_47:
-adrp x16, _mono_aot_mnsuse_iOS_got@PAGE+0
-add x16, x16, _mono_aot_mnsuse_iOS_got@PAGEOFF
-ldr x16, [x16, #744]
-br x16
-.word 1164
-	.no_dead_strip plt__rgctx_fetch_12
-plt__rgctx_fetch_12:
-_p_48:
-adrp x16, _mono_aot_mnsuse_iOS_got@PAGE+0
-add x16, x16, _mono_aot_mnsuse_iOS_got@PAGEOFF
-ldr x16, [x16, #752]
-br x16
-.word 1187
-	.no_dead_strip plt__jit_icall_mono_thread_interruption_checkpoint
-plt__jit_icall_mono_thread_interruption_checkpoint:
-_p_49:
-adrp x16, _mono_aot_mnsuse_iOS_got@PAGE+0
-add x16, x16, _mono_aot_mnsuse_iOS_got@PAGEOFF
-ldr x16, [x16, #760]
-br x16
-.word 1226
-	.no_dead_strip plt__rgctx_fetch_13
-plt__rgctx_fetch_13:
-_p_50:
-adrp x16, _mono_aot_mnsuse_iOS_got@PAGE+0
-add x16, x16, _mono_aot_mnsuse_iOS_got@PAGEOFF
-ldr x16, [x16, #768]
-br x16
-.word 1282
-	.no_dead_strip plt__rgctx_fetch_14
-plt__rgctx_fetch_14:
-_p_51:
-adrp x16, _mono_aot_mnsuse_iOS_got@PAGE+0
-add x16, x16, _mono_aot_mnsuse_iOS_got@PAGEOFF
-ldr x16, [x16, #776]
-br x16
-.word 1326
-	.no_dead_strip plt__rgctx_fetch_15
-plt__rgctx_fetch_15:
-_p_52:
-adrp x16, _mono_aot_mnsuse_iOS_got@PAGE+0
-add x16, x16, _mono_aot_mnsuse_iOS_got@PAGEOFF
-ldr x16, [x16, #784]
-br x16
-.word 1370
-	.no_dead_strip plt__rgctx_fetch_16
-plt__rgctx_fetch_16:
-_p_53:
-adrp x16, _mono_aot_mnsuse_iOS_got@PAGE+0
-add x16, x16, _mono_aot_mnsuse_iOS_got@PAGEOFF
-ldr x16, [x16, #792]
-br x16
-.word 1396
-	.no_dead_strip plt__rgctx_fetch_17
-plt__rgctx_fetch_17:
-_p_54:
-adrp x16, _mono_aot_mnsuse_iOS_got@PAGE+0
-add x16, x16, _mono_aot_mnsuse_iOS_got@PAGEOFF
-ldr x16, [x16, #800]
-br x16
-.word 1419
-	.no_dead_strip plt__rgctx_fetch_18
-plt__rgctx_fetch_18:
-_p_55:
-adrp x16, _mono_aot_mnsuse_iOS_got@PAGE+0
-add x16, x16, _mono_aot_mnsuse_iOS_got@PAGEOFF
-ldr x16, [x16, #808]
-br x16
-.word 1476
-	.no_dead_strip plt_System_Array_Copy_System_Array_int_System_Array_int_int
-plt_System_Array_Copy_System_Array_int_System_Array_int_int:
-_p_56:
-adrp x16, _mono_aot_mnsuse_iOS_got@PAGE+0
-add x16, x16, _mono_aot_mnsuse_iOS_got@PAGEOFF
-ldr x16, [x16, #816]
-br x16
-.word 1502
-	.no_dead_strip plt_Xamarin_Forms_Device_get_OS
-plt_Xamarin_Forms_Device_get_OS:
-_p_57:
-adrp x16, _mono_aot_mnsuse_iOS_got@PAGE+0
-add x16, x16, _mono_aot_mnsuse_iOS_got@PAGEOFF
-ldr x16, [x16, #824]
-br x16
-.word 1505
+.word 233
 plt_end:
 .section __TEXT, __const
 	.align 3
 image_table:
 
 	.long 6
-	.asciz "mscorlib"
-	.asciz "4C2F3FC4-BC0B-414E-BBC3-5BCAA6C90F7C"
-	.asciz ""
-	.asciz "7cec85d7bea7798e"
-	.align 3
-
-	.long 1,2,0,5,0
 	.asciz "Xamarin.Forms.Core"
 	.asciz "28C30D56-374D-4278-A335-575A57B98CD5"
 	.asciz ""
@@ -3365,7 +1240,7 @@ image_table:
 
 	.long 0,1,4,0,0
 	.asciz "mnsuse.iOS"
-	.asciz "27B8D0DF-F6ED-43D7-9F35-877B89CBAAC9"
+	.asciz "BF105D26-34D0-44BC-B8A9-A70C519A7D01"
 	.asciz ""
 	.asciz ""
 	.align 3
@@ -3392,15 +1267,22 @@ image_table:
 	.align 3
 
 	.long 0,14,1,0,0
+	.asciz "mscorlib"
+	.asciz "4C2F3FC4-BC0B-414E-BBC3-5BCAA6C90F7C"
+	.asciz ""
+	.asciz "7cec85d7bea7798e"
+	.align 3
+
+	.long 1,2,0,5,0
 .data
 	.align 3
 _mono_aot_mnsuse_iOS_got:
-	.space 832
+	.space 392
 got_end:
 .section __TEXT, __const
 	.align 2
 assembly_guid:
-	.asciz "27B8D0DF-F6ED-43D7-9F35-877B89CBAAC9"
+	.asciz "BF105D26-34D0-44BC-B8A9-A70C519A7D01"
 .section __TEXT, __const
 	.align 2
 runtime_version:
@@ -3481,7 +1363,7 @@ _mono_aot_file_info:
 	.align 3
 	.quad unbox_trampoline_addresses
 
-	.long 46,832,58,29,6,387000831,0,5879
+	.long 24,392,25,11,6,387000831,0,1655
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0,0,0,128,8,8,15
 	.long 0,0,0,0,0
@@ -3494,190 +1376,58 @@ _mono_aot_module_mnsuse_iOS_info:
 	.align 3
 blob:
 
-	.byte 0,0,1,4,0,2,5,6,0,1,7,0,2,8,9,0,2,10,11,0,1,12,0,1,13,0,1,14,0,14,15,16
-	.byte 17,18,19,19,20,21,22,23,24,25,26,26,0,1,27,0,1,28,0,1,29,0,1,30,0,1,31,0,3,32,33,34
-	.byte 0,2,35,36,0,1,37,0,1,38,0,1,39,0,1,40,0,1,41,0,1,42,0,1,43,0,2,44,45,5,30,0
-	.byte 1,255,255,255,255,255,150,156,255,253,0,0,0,1,131,8,0,198,0,22,156,0,1,7,93,5,30,0,1,255,255,255
-	.byte 255,255,150,164,255,253,0,0,0,1,131,8,0,198,0,22,164,0,1,7,121,150,165,5,30,0,1,255,255,255,255,255
-	.byte 150,166,255,253,0,0,0,1,131,8,0,198,0,22,166,0,1,7,128,151,5,30,0,1,255,255,255,255,255,150,167,255
-	.byte 253,0,0,0,1,131,8,0,198,0,22,167,0,1,7,128,180,5,30,0,1,255,255,255,255,255,150,168,255,253,0,0
-	.byte 0,1,131,8,0,198,0,22,168,0,1,7,128,209,4,1,131,52,2,2,16,1,1,34,255,252,0,0,0,1,1,7
-	.byte 128,238,150,154,150,155,150,157,5,30,0,1,255,255,255,255,255,150,158,255,253,0,0,0,1,131,8,0,198,0,22,158
-	.byte 0,1,7,129,8,5,30,0,1,255,255,255,255,255,150,159,255,253,0,0,0,1,131,8,0,198,0,22,159,0,1,7
-	.byte 129,37,5,30,0,1,255,255,255,255,255,150,160,255,253,0,0,0,1,131,8,0,198,0,22,160,0,1,7,129,66,5
-	.byte 30,0,1,255,255,255,255,255,150,161,255,253,0,0,0,1,131,8,0,198,0,22,161,0,1,7,129,95,255,254,0,0
-	.byte 0,2,255,43,0,0,1,12,2,40,43,48,41,41,17,2,1,41,41,14,2,4,2,41,14,2,5,2,41,41,41,41
-	.byte 14,2,129,89,1,14,2,129,93,1,17,2,25,16,2,128,155,1,130,124,34,255,254,0,0,0,2,255,43,0,0,1
-	.byte 14,2,129,65,1,14,2,129,32,1,17,2,79,16,2,128,163,1,130,160,16,2,128,163,1,130,166,6,255,254,0,0
-	.byte 0,2,202,0,0,31,41,41,41,41,41,41,11,1,131,140,11,1,131,42,41,33,41,41,41,41,41,41,41,41,8,3
-	.byte 128,228,129,24,129,80,3,195,0,6,170,3,196,0,0,80,3,196,0,0,122,3,197,0,0,1,7,20,109,111,110,111
-	.byte 95,111,98,106,101,99,116,95,110,101,119,95,102,97,115,116,0,3,194,0,0,5,3,196,0,0,81,3,196,0,0,85
-	.byte 3,193,0,0,160,3,194,0,0,9,3,193,0,0,155,3,193,0,11,224,3,193,0,10,198,3,193,0,10,217,3,193
-	.byte 0,10,215,3,193,0,10,186,3,193,0,4,168,3,193,0,4,170,3,255,254,0,0,0,2,255,43,0,0,1,3,193
-	.byte 0,6,120,3,193,0,4,230,3,193,0,10,54,3,255,254,0,0,0,2,202,0,0,23,3,193,0,9,71,3,193,0
-	.byte 9,55,3,193,0,9,61,3,193,0,4,93,3,193,0,9,51,3,193,0,11,223,255,253,0,0,0,1,131,8,0,198
-	.byte 0,22,156,0,1,7,93,35,130,182,192,0,94,41,255,253,0,0,0,1,131,8,0,198,0,22,156,0,1,7,93,0
-	.byte 4,1,131,9,1,7,93,35,130,182,150,5,7,130,224,35,130,182,140,13,255,253,0,0,0,7,130,224,0,198,0,22
-	.byte 250,1,7,93,0,7,24,109,111,110,111,95,111,98,106,101,99,116,95,110,101,119,95,115,112,101,99,105,102,105,99,0
-	.byte 255,253,0,0,0,1,131,8,0,198,0,22,164,0,1,7,121,35,131,32,192,0,94,41,255,253,0,0,0,1,131,8
-	.byte 0,198,0,22,164,0,1,7,121,0,7,26,109,111,110,111,95,104,101,108,112,101,114,95,108,100,115,116,114,95,109,115
-	.byte 99,111,114,108,105,98,0,7,25,109,111,110,111,95,97,114,99,104,95,116,104,114,111,119,95,101,120,99,101,112,116,105
-	.byte 111,110,0,255,253,0,0,0,1,131,8,0,198,0,22,166,0,1,7,128,151,35,131,131,192,0,94,41,255,253,0,0
-	.byte 0,1,131,8,0,198,0,22,166,0,1,7,128,151,0,3,150,172,3,141,204,3,150,171,35,131,131,140,17,255,253,0
-	.byte 0,0,1,131,8,0,198,0,22,169,0,1,7,128,151,35,131,131,192,0,92,33,16,1,3,1,18,1,131,8,8,16
-	.byte 30,7,128,151,255,253,0,0,0,1,131,8,0,198,0,22,169,0,1,7,128,151,255,253,0,0,0,1,131,8,0,198
-	.byte 0,22,167,0,1,7,128,180,35,131,246,192,0,94,41,255,253,0,0,0,1,131,8,0,198,0,22,167,0,1,7,128
-	.byte 180,0,35,131,246,140,17,255,253,0,0,0,1,131,8,0,198,0,22,169,0,1,7,128,180,35,131,246,192,0,92,33
-	.byte 16,1,3,1,18,1,131,8,8,16,30,7,128,180,255,253,0,0,0,1,131,8,0,198,0,22,169,0,1,7,128,180
-	.byte 255,253,0,0,0,1,131,8,0,198,0,22,168,0,1,7,128,209,35,132,96,192,0,94,41,255,253,0,0,0,1,131
-	.byte 8,0,198,0,22,168,0,1,7,128,209,0,35,132,96,140,17,255,253,0,0,0,1,131,8,0,198,0,22,170,0,1
-	.byte 7,128,209,35,132,96,192,0,92,33,16,1,3,1,18,1,131,8,8,16,30,7,128,209,255,253,0,0,0,1,131,8
-	.byte 0,198,0,22,170,0,1,7,128,209,7,35,109,111,110,111,95,116,104,114,101,97,100,95,105,110,116,101,114,114,117,112
-	.byte 116,105,111,110,95,99,104,101,99,107,112,111,105,110,116,0,255,253,0,0,0,1,131,8,0,198,0,22,158,0,1,7
-	.byte 129,8,35,132,240,192,0,94,41,255,253,0,0,0,1,131,8,0,198,0,22,158,0,1,7,129,8,0,255,253,0,0
-	.byte 0,1,131,8,0,198,0,22,159,0,1,7,129,37,35,133,28,192,0,94,41,255,253,0,0,0,1,131,8,0,198,0
-	.byte 22,159,0,1,7,129,37,0,255,253,0,0,0,1,131,8,0,198,0,22,160,0,1,7,129,66,35,133,72,192,0,94
-	.byte 41,255,253,0,0,0,1,131,8,0,198,0,22,160,0,1,7,129,66,0,35,133,72,140,17,255,253,0,0,0,1,131
-	.byte 8,0,198,0,22,169,0,1,7,129,66,35,133,72,192,0,92,33,16,1,3,1,18,1,131,8,8,16,30,7,129,66
-	.byte 255,253,0,0,0,1,131,8,0,198,0,22,169,0,1,7,129,66,255,253,0,0,0,1,131,8,0,198,0,22,161,0
-	.byte 1,7,129,95,35,133,178,192,0,94,41,255,253,0,0,0,1,131,8,0,198,0,22,161,0,1,7,129,95,0,3,150
-	.byte 213,3,193,0,4,22,10,0,1,12,1,80,0,0,14,40,1,0,0,32,2,0,14,92,60,104,208,0,0,29,16,0
-	.byte 2,1,60,6,32,10,14,1,27,1,80,0,0,2,48,0,1,2,2,32,0,1,3,14,88,1,1,4,10,64,0,0
-	.byte 0,32,2,0,34,128,188,56,128,200,208,0,0,29,16,0,11,0,56,1,24,1,24,1,4,5,16,0,24,0,0,0
-	.byte 4,0,0,5,4,1,32,10,0,1,12,1,80,0,0,14,48,1,0,0,32,2,0,18,96,60,108,208,0,0,29,16
-	.byte 0,4,1,60,0,0,0,4,6,32,10,28,1,57,1,104,0,0,2,48,0,1,2,2,32,0,1,3,10,40,0,1
-	.byte 4,10,40,0,1,5,2,40,1,1,6,10,80,1,1,7,10,56,0,1,8,6,72,1,1,9,10,80,1,1,10,12
-	.byte 56,0,0,0,48,2,0,83,129,108,68,129,124,208,0,0,29,32,208,0,0,29,40,24,23,0,32,0,68,1,24,0
-	.byte 16,5,4,0,16,5,4,0,16,1,4,0,16,0,12,0,0,0,4,0,4,0,0,5,4,0,20,0,4,0,0,5
-	.byte 4,0,16,3,20,0,24,0,4,0,0,0,0,0,4,0,8,5,24,6,4,0,20,1,4,1,16,10,47,1,37,1
-	.byte 88,0,0,2,48,0,1,2,12,56,0,1,3,2,32,0,1,4,2,40,1,1,5,10,80,1,1,6,10,56,0,0
-	.byte 0,32,2,0,48,128,232,60,128,248,26,0,20,0,60,0,24,1,4,0,4,5,4,1,16,0,16,1,4,0,16,0
-	.byte 12,0,0,0,4,0,4,0,0,5,4,0,20,0,4,0,0,5,4,1,32,10,0,1,17,1,80,0,0,2,48,0
-	.byte 1,2,2,32,0,0,0,32,2,0,16,112,56,124,208,0,0,29,16,0,3,0,56,1,24,1,32,10,0,1,17,1
+	.byte 0,0,1,4,0,2,5,6,0,1,7,0,2,8,9,0,2,10,11,0,1,12,0,1,13,0,1,14,0,7,15,16
+	.byte 17,18,19,20,21,0,2,22,23,255,254,0,0,0,1,255,43,0,0,1,12,1,40,43,48,41,41,17,1,1,41,41
+	.byte 14,2,4,1,41,14,2,5,1,41,41,41,41,14,1,129,89,14,1,129,93,17,1,25,16,1,128,155,130,124,34,255
+	.byte 254,0,0,0,1,255,43,0,0,1,14,1,128,242,41,8,3,128,228,129,24,129,80,3,194,0,6,170,3,195,0,0
+	.byte 80,3,195,0,0,122,3,196,0,0,1,7,20,109,111,110,111,95,111,98,106,101,99,116,95,110,101,119,95,102,97,115
+	.byte 116,0,3,193,0,0,5,3,195,0,0,81,3,195,0,0,85,3,128,160,3,193,0,0,9,3,128,155,3,139,224,3
+	.byte 138,198,3,138,217,3,138,215,3,138,186,3,132,168,3,255,254,0,0,0,1,255,43,0,0,1,3,134,120,3,132,230
+	.byte 3,136,107,3,136,104,3,139,223,3,132,22,10,0,1,12,1,80,0,0,14,40,1,0,0,32,2,0,14,92,60,104
+	.byte 208,0,0,29,16,0,2,1,60,6,32,10,14,1,27,1,80,0,0,2,48,0,1,2,2,32,0,1,3,14,88,1
+	.byte 1,4,10,64,0,0,0,32,2,0,34,128,188,56,128,200,208,0,0,29,16,0,11,0,56,1,24,1,24,1,4,5
+	.byte 16,0,24,0,0,0,4,0,0,5,4,1,32,10,0,1,12,1,80,0,0,14,48,1,0,0,32,2,0,18,96,60
+	.byte 108,208,0,0,29,16,0,4,1,60,0,0,0,4,6,32,10,28,1,57,1,104,0,0,2,48,0,1,2,2,32,0
+	.byte 1,3,10,40,0,1,4,10,40,0,1,5,2,40,1,1,6,10,80,1,1,7,10,56,0,1,8,6,72,1,1,9
+	.byte 10,80,1,1,10,12,56,0,0,0,48,2,0,83,129,108,68,129,124,208,0,0,29,32,208,0,0,29,40,24,23,0
+	.byte 32,0,68,1,24,0,16,5,4,0,16,5,4,0,16,1,4,0,16,0,12,0,0,0,4,0,4,0,0,5,4,0
+	.byte 20,0,4,0,0,5,4,0,16,3,20,0,24,0,4,0,0,0,0,0,4,0,8,5,24,6,4,0,20,1,4,1
+	.byte 16,10,47,1,37,1,88,0,0,2,48,0,1,2,12,56,0,1,3,2,32,0,1,4,2,40,1,1,5,10,80,1
+	.byte 1,6,10,56,0,0,0,32,2,0,48,128,232,60,128,248,26,0,20,0,60,0,24,1,4,0,4,5,4,1,16,0
+	.byte 16,1,4,0,16,0,12,0,0,0,4,0,4,0,0,5,4,0,20,0,4,0,0,5,4,1,32,10,0,1,17,1
 	.byte 80,0,0,2,48,0,1,2,2,32,0,0,0,32,2,0,16,112,56,124,208,0,0,29,16,0,3,0,56,1,24,1
 	.byte 32,10,0,1,17,1,80,0,0,2,48,0,1,2,2,32,0,0,0,32,2,0,16,112,56,124,208,0,0,29,16,0
-	.byte 3,0,56,1,24,1,32,10,64,1,237,1,1,104,0,0,2,48,0,1,2,12,56,0,1,3,2,32,0,1,4,10
-	.byte 80,1,1,5,2,48,0,1,6,2,48,1,1,7,10,80,1,1,8,2,48,1,1,9,12,72,1,1,10,10,64,1
-	.byte 1,11,2,48,1,1,12,10,72,0,1,13,12,96,1,1,14,10,80,0,1,15,12,96,1,1,16,10,80,1,1,17
-	.byte 4,48,0,1,18,28,88,1,1,19,10,104,1,1,20,38,104,1,1,21,10,128,2,1,1,22,10,88,0,1,23,2
-	.byte 40,1,1,24,10,80,1,1,25,2,48,1,1,26,2,40,1,1,27,10,64,1,1,28,10,80,1,1,29,4,48,1
-	.byte 1,30,14,72,1,1,31,10,64,1,1,32,6,56,1,1,33,10,72,1,1,34,14,144,1,1,1,35,10,152,1,1
-	.byte 1,36,14,144,1,1,1,37,10,152,1,1,1,38,4,48,1,1,39,10,120,1,1,40,2,48,1,1,41,10,72,1
-	.byte 1,42,2,48,1,1,43,10,120,1,1,44,2,48,1,1,45,10,56,0,0,0,32,2,0,129,120,135,68,68,135,92
-	.byte 26,25,24,23,22,21,0,128,181,0,68,0,24,1,4,0,4,5,4,1,16,0,16,0,12,0,0,0,4,0,4,0
-	.byte 0,0,4,5,20,1,4,0,16,1,8,0,16,0,12,0,0,0,4,0,4,0,0,0,4,5,20,1,4,0,16,1
-	.byte 4,5,16,0,20,0,4,0,0,0,4,0,0,0,4,5,16,1,8,0,24,0,4,0,0,0,4,0,0,5,4,0
-	.byte 16,1,8,5,24,0,20,0,12,0,4,0,0,5,4,0,16,1,8,5,24,0,20,0,12,0,4,0,0,0,4,5
-	.byte 16,1,4,1,4,0,16,1,4,9,12,2,4,1,4,1,4,0,16,0,12,0,0,0,4,0,4,0,4,0,12,5
-	.byte 20,1,8,9,12,9,12,0,44,0,4,0,0,0,12,0,0,0,12,0,12,5,44,0,16,0,24,5,4,0,16,1
-	.byte 4,0,16,0,12,0,0,0,4,0,4,0,0,0,4,5,20,1,4,0,16,1,4,0,16,0,4,0,4,0,0,5
-	.byte 8,0,16,0,12,0,0,0,4,0,4,0,0,0,4,5,20,2,4,0,16,2,4,5,16,0,20,0,4,0,0,0
-	.byte 4,0,0,5,4,0,16,2,8,1,4,0,20,0,4,0,4,0,4,0,0,5,4,0,16,2,8,5,48,0,20,0
-	.byte 48,0,4,0,0,5,4,0,16,2,8,5,48,0,20,0,48,0,4,0,0,0,4,5,16,2,8,0,24,0,4,0
-	.byte 0,0,4,0,12,5,16,0,16,1,8,0,20,0,4,0,4,0,0,0,8,5,16,1,8,0,24,0,4,0,0,0
-	.byte 4,0,12,0,16,5,16,1,8,0,20,0,4,0,0,5,4,1,32,11,94,0,1,29,72,17,255,253,0,0,0,1
-	.byte 131,8,0,198,0,22,156,0,1,7,93,1,0,1,0,1,20,1,144,1,0,0,2,48,0,1,2,12,224,1,1,0
-	.byte 0,200,1,2,0,68,129,68,48,129,80,208,0,0,29,16,1,208,0,0,29,80,208,0,0,29,88,23,0,48,0,0
-	.byte 0,4,0,8,0,4,0,24,1,48,0,12,0,0,0,12,0,0,0,4,0,16,0,0,0,0,0,0,0,28,5,20
-	.byte 0,0,0,4,0,0,5,76,1,16,11,109,0,1,29,56,17,255,253,0,0,0,1,131,8,0,198,0,22,164,0,1
-	.byte 7,121,1,0,1,0,1,14,1,160,1,0,0,2,48,0,0,0,128,1,2,0,66,128,184,56,128,196,208,0,0,29
-	.byte 24,208,0,0,29,32,208,0,0,29,16,1,208,0,0,29,64,208,0,0,29,72,17,0,56,0,0,0,4,0,8,0
-	.byte 4,0,24,0,24,0,8,0,8,0,4,5,4,0,8,0,8,0,0,5,4,0,4,1,16,10,0,1,13,1,88,0
-	.byte 0,2,48,0,0,0,128,1,2,0,41,128,148,60,128,160,208,0,0,29,24,208,0,0,29,16,0,12,0,60,0,24
-	.byte 0,8,0,8,0,4,5,4,0,8,0,8,0,0,5,4,0,4,1,16,11,123,0,1,29,80,18,255,253,0,0,0
-	.byte 1,131,8,0,198,0,22,166,0,1,7,128,151,1,0,1,0,1,118,1,184,1,0,0,2,48,0,1,2,12,72,1
-	.byte 2,3,5,12,72,0,1,4,20,88,1,0,12,88,0,1,6,12,72,1,1,7,2,48,0,1,19,14,48,0,1,9
-	.byte 18,152,1,0,2,10,14,22,48,0,2,11,13,22,48,0,1,12,16,144,1,1,0,4,64,0,1,18,10,40,0,1
-	.byte 15,38,104,1,2,16,18,10,48,0,1,17,16,104,1,0,4,72,0,1,19,8,72,0,2,8,20,14,64,0,1,21
-	.byte 14,136,1,1,0,0,48,2,0,129,12,131,180,64,131,204,208,0,0,29,56,26,24,23,208,0,0,29,104,1,208,0
-	.byte 0,29,88,208,0,0,29,96,119,0,64,0,0,0,4,0,8,0,4,0,28,0,24,1,4,0,4,0,12,5,20,1
-	.byte 4,0,8,5,4,0,16,0,8,0,8,5,4,0,0,0,8,5,20,0,8,0,8,0,0,5,4,0,4,1,0,0
-	.byte 16,1,4,0,4,0,12,5,20,1,4,0,16,2,4,5,4,0,16,1,4,1,4,2,12,0,0,0,12,0,0,0
-	.byte 4,0,12,0,0,0,4,0,4,0,0,5,4,6,20,0,0,5,4,6,20,0,0,5,4,0,16,1,4,1,4,1
-	.byte 4,0,8,0,4,0,8,0,8,0,4,0,8,0,4,5,24,1,4,0,0,1,4,0,16,5,4,0,16,14,12,0
-	.byte 4,0,0,0,4,0,8,0,8,5,20,0,0,5,4,0,16,1,4,1,4,1,4,0,4,0,4,0,4,0,4,0
-	.byte 4,0,4,5,20,1,4,0,0,1,4,0,24,2,4,1,4,1,4,0,24,1,4,1,4,0,4,5,4,0,16,1
-	.byte 4,1,4,0,8,0,4,0,8,0,8,0,4,0,8,0,4,6,20,1,4,1,16,11,128,151,0,1,29,48,18,255
-	.byte 253,0,0,0,1,131,8,0,198,0,22,167,0,1,7,128,180,1,0,1,0,1,34,1,168,1,0,0,2,48,0,1
-	.byte 2,14,80,1,2,3,4,10,56,0,0,22,112,0,1,5,18,152,1,0,0,0,40,2,0,106,129,88,56,129,104,26
-	.byte 25,208,0,0,29,72,1,208,0,0,29,56,208,0,0,29,64,41,0,56,0,0,0,4,0,8,0,4,0,28,0,24
-	.byte 1,4,1,4,0,4,0,12,5,20,0,4,5,4,0,16,0,4,0,4,0,4,5,4,0,8,0,8,0,0,5,4
-	.byte 0,4,1,0,0,16,1,4,1,4,2,12,0,0,0,12,0,0,0,4,0,12,0,0,0,4,0,4,0,0,5,4
-	.byte 1,20,1,16,11,128,170,0,1,29,96,18,255,253,0,0,0,1,131,8,0,198,0,22,168,0,1,7,128,209,1,0
-	.byte 1,0,1,55,1,192,1,0,0,2,48,0,1,2,14,80,1,2,3,4,10,56,0,0,22,112,0,1,5,14,224,1
-	.byte 0,2,6,8,12,48,0,1,7,18,96,0,0,2,40,0,1,9,18,152,1,1,0,0,32,2,0,128,173,130,44,72
-	.byte 130,72,26,208,0,0,29,72,25,23,1,208,0,0,29,104,208,0,0,29,112,74,0,72,0,0,0,4,0,8,0,4
-	.byte 0,24,0,24,1,4,1,4,0,4,0,12,5,20,0,4,5,4,0,16,0,4,0,4,0,4,5,4,0,8,0,8
-	.byte 0,0,5,4,0,4,1,0,0,16,1,4,0,4,0,4,0,4,0,4,0,4,0,8,0,4,0,4,0,4,0,4
-	.byte 0,12,0,4,0,4,0,12,0,4,0,4,5,4,1,4,0,16,1,4,0,0,5,4,0,16,1,4,7,8,0,4
-	.byte 0,4,0,0,0,4,1,8,0,16,1,4,0,16,1,4,1,4,2,12,0,0,0,12,0,0,0,4,0,12,0,0
-	.byte 0,4,0,4,0,0,0,4,6,32,10,128,203,1,81,1,112,0,0,2,48,0,2,2,4,24,72,0,1,3,4,32
-	.byte 0,1,4,28,128,1,0,1,5,16,72,0,2,6,9,12,48,0,1,7,4,32,0,1,8,14,88,1,1,9,2,48
-	.byte 0,1,10,16,72,0,2,11,13,12,48,0,1,12,28,136,1,0,0,2,48,0,1,14,26,120,0,0,0,40,2,0
-	.byte 128,159,130,76,72,130,100,26,25,24,23,0,74,0,72,0,24,6,12,1,4,0,0,5,4,2,16,0,16,6,4,0
-	.byte 4,0,4,0,4,1,4,0,0,5,4,0,4,0,8,1,0,1,4,0,24,1,4,4,4,1,4,1,4,1,4,0
-	.byte 16,1,4,0,0,5,4,2,16,0,16,1,4,1,4,0,4,0,4,0,8,0,0,0,4,6,16,0,24,1,4,4
-	.byte 4,1,4,1,4,1,4,0,16,1,4,0,0,5,4,0,16,1,4,1,4,1,4,4,4,1,4,1,4,0,4,0
-	.byte 4,0,4,5,8,0,28,0,0,1,4,0,16,1,4,1,4,4,4,1,4,1,4,0,4,0,4,5,8,0,28,1
-	.byte 16,10,14,1,17,1,80,0,0,2,48,0,1,2,12,64,1,0,0,40,2,0,24,128,132,56,128,144,208,0,0,29
-	.byte 16,0,6,0,56,1,28,0,0,0,12,5,20,1,16,10,0,1,12,1,80,0,0,2,48,0,0,0,48,2,0,18
-	.byte 104,56,116,208,0,0,29,16,0,4,0,56,0,24,1,4,1,20,10,0,1,13,1,80,0,0,2,48,0,0,0,128
-	.byte 1,2,0,36,128,144,56,128,156,208,0,0,29,16,0,12,0,56,0,24,0,8,0,8,0,4,5,4,0,8,0,8
-	.byte 0,0,5,4,0,4,1,16,11,109,0,1,29,48,18,255,253,0,0,0,1,131,8,0,198,0,22,158,0,1,7,129
-	.byte 8,1,0,1,0,1,14,1,152,1,0,0,2,48,0,0,0,128,1,2,0,61,128,180,52,128,192,208,0,0,29,24
-	.byte 208,0,0,29,16,1,208,0,0,29,56,208,0,0,29,64,17,0,52,0,0,0,4,0,8,0,4,0,24,0,24,0
-	.byte 8,0,8,0,4,5,4,0,8,0,8,0,0,5,4,0,4,1,16,11,109,0,1,29,48,18,255,253,0,0,0,1
-	.byte 131,8,0,198,0,22,159,0,1,7,129,37,1,0,1,0,1,14,1,152,1,0,0,2,48,0,0,0,128,1,2,0
-	.byte 61,128,180,52,128,192,208,0,0,29,24,208,0,0,29,16,1,208,0,0,29,56,208,0,0,29,64,17,0,52,0,0
-	.byte 0,4,0,8,0,4,0,24,0,24,0,8,0,8,0,4,5,4,0,8,0,8,0,0,5,4,0,4,1,16,11,128
-	.byte 232,0,1,29,64,18,255,253,0,0,0,1,131,8,0,198,0,22,160,0,1,7,129,66,1,0,1,0,1,101,1,176
-	.byte 1,0,0,2,48,0,1,2,12,72,1,2,3,5,12,72,0,1,4,20,88,1,0,12,88,0,1,6,12,72,1,1
-	.byte 7,2,48,0,1,17,14,48,0,1,9,18,152,1,0,2,10,13,22,48,0,2,11,12,22,48,0,0,4,56,0,1
-	.byte 16,10,40,0,1,14,38,104,1,2,15,16,10,48,0,0,4,72,0,1,17,8,72,0,2,8,18,14,64,0,0,0
-	.byte 48,2,0,128,206,130,236,60,131,0,208,0,0,29,40,26,24,23,208,0,0,29,88,1,208,0,0,29,72,208,0,0
-	.byte 29,80,88,0,60,0,0,0,4,0,8,0,4,0,28,0,24,1,4,0,4,0,12,5,20,1,4,0,8,5,4,0
-	.byte 16,0,8,0,8,5,4,0,0,0,8,5,20,0,8,0,8,0,0,5,4,0,4,1,0,0,16,1,4,0,4,0
-	.byte 12,5,20,1,4,0,16,2,4,5,4,0,16,1,4,1,4,2,12,0,0,0,12,0,0,0,4,0,12,0,0,0
-	.byte 4,0,4,0,0,5,4,6,20,0,0,5,4,6,20,0,0,5,4,0,16,1,4,0,4,1,4,0,16,5,4,0
-	.byte 16,14,12,0,4,0,0,0,4,0,8,0,8,5,20,0,0,5,4,0,16,1,4,0,4,1,4,0,24,2,4,1
-	.byte 4,1,4,0,24,1,4,1,4,0,4,5,4,0,16,1,4,1,20,11,128,254,0,1,29,88,18,255,253,0,0,0
-	.byte 1,131,8,0,198,0,22,161,0,1,7,129,95,1,0,1,0,1,123,1,192,1,0,0,2,48,0,2,2,3,12,48
-	.byte 0,0,22,112,0,1,4,12,72,1,2,5,7,12,72,0,1,6,20,88,1,0,12,88,0,1,8,16,112,1,1,9
-	.byte 16,136,1,1,1,10,14,160,1,1,2,11,12,12,72,0,0,22,128,1,0,1,13,12,80,1,2,14,16,12,72,0
-	.byte 1,15,20,88,1,0,12,88,0,2,17,19,14,64,0,1,18,30,120,1,0,12,96,0,1,20,16,144,1,1,1,21
-	.byte 18,184,1,1,1,22,10,80,1,0,0,32,2,0,129,83,132,180,72,132,208,25,208,0,0,29,64,24,1,208,0,0
-	.byte 29,96,208,0,0,29,104,128,157,0,72,0,0,0,4,0,8,0,4,0,24,0,24,1,4,0,0,5,4,0,16,0
-	.byte 4,0,4,0,4,5,4,0,8,0,8,0,0,5,4,0,4,1,0,0,16,1,4,0,4,0,12,5,20,1,4,0
-	.byte 8,5,4,0,16,0,8,0,8,5,4,0,0,0,8,5,20,0,8,0,8,0,0,5,4,0,4,1,0,0,20,1
-	.byte 4,1,4,1,4,0,4,0,4,0,4,0,4,0,4,0,4,5,20,1,8,1,4,1,4,0,8,0,4,0,8,0
-	.byte 4,0,4,0,4,5,16,1,4,1,8,0,8,0,4,0,8,0,8,0,8,0,12,0,4,5,20,1,8,0,4,5
-	.byte 4,0,16,0,8,0,8,0,4,5,4,0,8,0,8,0,0,5,4,0,4,1,0,0,16,1,4,0,4,0,4,0
-	.byte 0,0,12,5,20,1,4,0,8,5,4,0,16,0,8,0,8,5,4,0,0,0,8,5,20,0,8,0,8,0,0,5
-	.byte 4,0,4,1,0,1,20,1,4,0,4,5,4,0,16,0,4,0,4,5,8,0,8,0,8,5,4,0,0,0,8,5
-	.byte 24,0,8,0,8,0,0,0,0,5,4,0,4,1,0,0,16,1,4,1,4,1,4,0,8,0,4,0,8,0,8,0
-	.byte 4,0,8,0,4,5,16,1,8,1,4,1,4,1,8,0,8,0,4,0,8,0,8,0,8,0,12,0,4,5,36,0
-	.byte 4,6,32,10,129,29,1,68,1,112,0,0,2,48,0,1,2,10,56,1,1,3,2,56,0,4,4,5,7,9,40,144
-	.byte 1,0,1,11,4,40,0,1,6,2,56,0,0,2,48,0,1,8,2,64,0,0,2,48,0,1,10,2,64,0,0,2
-	.byte 48,0,1,12,2,56,0,0,0,40,2,0,89,129,200,72,129,220,24,208,0,0,29,40,208,0,0,29,48,23,0,35
-	.byte 0,72,0,24,0,12,5,24,1,4,0,20,2,4,1,4,0,8,0,4,0,4,0,4,0,12,0,4,0,4,17,4
-	.byte 0,16,2,4,0,16,1,4,0,24,0,4,1,4,1,24,0,28,0,0,1,4,1,24,0,28,0,0,1,4,0,16
-	.byte 1,4,0,24,1,20,0,128,144,16,0,0,1,4,128,144,16,0,0,1,153,58,153,55,153,54,153,52,52,128,162,195
-	.byte 0,2,228,64,0,0,8,195,0,2,255,195,0,2,252,195,0,2,228,195,0,2,253,195,0,2,254,195,0,2,246,195
-	.byte 0,2,229,195,0,3,5,195,0,3,6,195,0,3,10,195,0,3,11,195,0,3,12,195,0,3,7,195,0,3,8,195
-	.byte 0,2,239,195,0,3,13,195,0,2,243,195,0,2,240,195,0,2,244,195,0,3,15,195,0,3,19,195,0,3,14,195
-	.byte 0,3,18,195,0,3,16,195,0,3,17,195,0,3,20,195,0,3,20,195,0,3,19,195,0,3,18,195,0,3,17,195
-	.byte 0,3,16,195,0,3,15,195,0,3,14,195,0,3,13,195,0,3,12,195,0,3,11,195,0,3,10,195,0,3,9,195
-	.byte 0,3,8,195,0,3,7,195,0,3,6,195,0,3,5,195,0,3,4,196,0,0,82,195,0,2,239,196,0,0,90,196
-	.byte 0,0,84,196,0,0,89,196,0,0,87,196,0,0,86,194,0,0,4,196,0,0,88,30,128,160,129,8,0,0,8,153
-	.byte 58,153,55,153,54,153,52,193,0,0,12,193,0,0,13,193,0,0,52,193,0,0,51,193,0,0,93,193,0,0,107,193
-	.byte 0,0,106,193,0,0,79,193,0,0,80,193,0,0,111,193,0,0,112,193,0,0,100,193,0,0,101,193,0,0,102,193
-	.byte 0,0,84,193,0,0,85,193,0,0,151,193,0,0,89,193,0,0,87,193,0,0,157,193,0,0,159,193,0,0,149,193
-	.byte 0,0,150,194,0,0,8,194,0,0,7,194,0,0,6,42,128,160,129,128,0,0,8,153,58,153,55,153,54,153,52,193
-	.byte 0,0,12,193,0,0,13,193,0,0,52,193,0,0,51,193,0,5,5,193,0,0,107,193,0,0,106,193,0,0,79,193
-	.byte 0,0,80,193,0,0,111,193,0,0,112,193,0,0,100,193,0,0,101,193,0,0,102,193,0,0,84,193,0,0,85,193
-	.byte 0,4,111,193,0,0,89,193,0,0,87,193,0,4,239,193,0,4,220,193,0,4,136,193,0,4,137,193,0,4,138,193
-	.byte 0,4,109,193,0,4,110,193,0,4,145,193,0,5,3,193,0,4,141,193,0,4,139,193,0,4,128,193,0,4,217,193
-	.byte 0,4,218,193,0,5,7,193,0,5,4,193,0,4,254,193,0,4,253,193,0,4,246,115,103,101,110,0
+	.byte 3,0,56,1,24,1,32,10,0,1,17,1,80,0,0,2,48,0,1,2,2,32,0,0,0,32,2,0,16,112,56,124
+	.byte 208,0,0,29,16,0,3,0,56,1,24,1,32,10,64,1,143,1,1,104,0,0,2,48,0,1,2,12,56,0,1,3
+	.byte 2,32,0,1,4,10,80,1,1,5,2,48,0,1,6,2,48,1,1,7,10,80,1,1,8,2,48,1,1,9,12,72
+	.byte 1,1,10,10,64,1,1,11,2,48,1,1,12,10,72,0,1,13,12,96,1,1,14,10,80,1,1,15,4,48,0,1
+	.byte 16,28,88,1,1,17,10,104,1,1,18,38,104,1,1,19,10,128,2,1,1,20,10,88,0,1,21,2,40,1,1,22
+	.byte 10,80,1,1,23,2,48,1,1,24,4,56,1,1,25,10,64,1,1,26,2,48,1,1,27,10,56,0,0,0,32,2
+	.byte 0,128,230,132,36,68,132,60,26,25,24,23,22,0,109,0,68,0,24,1,4,0,4,5,4,1,16,0,16,0,12,0
+	.byte 0,0,4,0,4,0,0,0,4,5,20,1,4,0,16,1,8,0,16,0,12,0,0,0,4,0,4,0,0,0,4,5
+	.byte 20,1,4,0,16,1,4,5,16,0,20,0,4,0,0,0,4,0,0,0,4,5,16,1,8,0,24,0,4,0,0,0
+	.byte 4,0,0,5,4,0,16,1,8,5,24,0,20,0,12,0,4,0,0,0,4,5,16,1,4,1,4,0,16,1,4,9
+	.byte 12,2,4,1,4,1,4,0,16,0,12,0,0,0,4,0,4,0,4,0,12,5,20,1,8,9,12,9,12,0,44,0
+	.byte 4,0,0,0,12,0,0,0,12,0,12,5,44,0,16,0,24,5,4,0,16,1,4,0,16,0,12,0,0,0,4,0
+	.byte 4,0,0,0,4,5,20,1,4,0,16,1,4,1,8,0,20,0,4,0,0,0,4,0,0,0,4,5,16,1,8,0
+	.byte 20,0,4,0,0,5,4,1,32,10,92,1,68,1,112,0,0,2,48,0,1,2,10,56,1,1,3,2,56,0,4,4
+	.byte 5,7,9,40,144,1,0,1,11,4,40,0,1,6,2,56,0,0,2,48,0,1,8,2,64,0,0,2,48,0,1,10
+	.byte 2,64,0,0,2,48,0,1,12,2,56,0,0,0,40,2,0,89,129,200,72,129,220,24,208,0,0,29,40,208,0,0
+	.byte 29,48,23,0,35,0,72,0,24,0,12,5,24,1,4,0,20,2,4,1,4,0,8,0,4,0,4,0,4,0,12,0
+	.byte 4,0,4,17,4,0,16,2,4,0,16,1,4,0,24,0,4,1,4,1,24,0,28,0,0,1,4,1,24,0,28,0
+	.byte 0,1,4,0,16,1,4,0,24,1,20,0,128,144,16,0,0,1,4,128,144,16,0,0,1,197,0,25,58,197,0,25
+	.byte 55,197,0,25,54,197,0,25,52,52,128,162,194,0,2,228,64,0,0,8,194,0,2,255,194,0,2,252,194,0,2,228
+	.byte 194,0,2,253,194,0,2,254,194,0,2,246,194,0,2,229,194,0,3,5,194,0,3,6,194,0,3,10,194,0,3,11
+	.byte 194,0,3,12,194,0,3,7,194,0,3,8,194,0,2,239,194,0,3,13,194,0,2,243,194,0,2,240,194,0,2,244
+	.byte 194,0,3,15,194,0,3,19,194,0,3,14,194,0,3,18,194,0,3,16,194,0,3,17,194,0,3,20,194,0,3,20
+	.byte 194,0,3,19,194,0,3,18,194,0,3,17,194,0,3,16,194,0,3,15,194,0,3,14,194,0,3,13,194,0,3,12
+	.byte 194,0,3,11,194,0,3,10,194,0,3,9,194,0,3,8,194,0,3,7,194,0,3,6,194,0,3,5,194,0,3,4
+	.byte 195,0,0,82,194,0,2,239,195,0,0,90,195,0,0,84,195,0,0,89,195,0,0,87,195,0,0,86,193,0,0,4
+	.byte 195,0,0,88,30,128,160,129,8,0,0,8,197,0,25,58,197,0,25,55,197,0,25,54,197,0,25,52,12,13,52,51
+	.byte 93,107,106,79,80,111,112,100,101,102,84,85,128,151,89,87,128,157,128,159,128,149,128,150,193,0,0,8,193,0,0,7
+	.byte 193,0,0,6,42,128,160,129,128,0,0,8,197,0,25,58,197,0,25,55,197,0,25,54,197,0,25,52,12,13,52,51
+	.byte 133,5,107,106,79,80,111,112,100,101,102,84,85,132,111,89,87,132,239,132,220,132,136,132,137,132,138,132,109,132,110,132
+	.byte 145,133,3,132,141,132,139,132,128,132,217,132,218,133,7,133,4,132,254,132,253,132,246,115,103,101,110,0
 .section __TEXT, __const
 	.align 3
 Lglobals_hash:
@@ -7190,7 +4940,7 @@ LTDIE_96_REFERENCE:
 	.byte 14
 LDIFF_SYM606=LTDIE_96 - Ldebug_info_start
 	.long LDIFF_SYM606
-LTDIE_100:
+LTDIE_99:
 
 	.byte 5
 	.asciz "Xamarin_Forms_Layout"
@@ -7226,375 +4976,46 @@ LDIFF_SYM612=LDIE_BOOLEAN - Ldebug_info_start
 	.byte 3,35,185,2,0,7
 	.asciz "Xamarin_Forms_Layout"
 
-LDIFF_SYM613=LTDIE_100 - Ldebug_info_start
+LDIFF_SYM613=LTDIE_99 - Ldebug_info_start
 	.long LDIFF_SYM613
-LTDIE_100_POINTER:
-
-	.byte 13
-LDIFF_SYM614=LTDIE_100 - Ldebug_info_start
-	.long LDIFF_SYM614
-LTDIE_100_REFERENCE:
-
-	.byte 14
-LDIFF_SYM615=LTDIE_100 - Ldebug_info_start
-	.long LDIFF_SYM615
-LTDIE_102:
-
-	.byte 5
-	.asciz "Xamarin_Forms_ObservableWrapper`2"
-
-	.byte 40,16
-LDIFF_SYM616=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM616
-	.byte 2,35,0,6
-	.asciz "list"
-
-LDIFF_SYM617=LTDIE_47_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM617
-	.byte 2,35,16,6
-	.asciz "isReadOnly"
-
-LDIFF_SYM618=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM618
-	.byte 2,35,32,6
-	.asciz "CollectionChanged"
-
-LDIFF_SYM619=LTDIE_50_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM619
-	.byte 2,35,24,0,7
-	.asciz "Xamarin_Forms_ObservableWrapper`2"
-
-LDIFF_SYM620=LTDIE_102 - Ldebug_info_start
-	.long LDIFF_SYM620
-LTDIE_102_POINTER:
-
-	.byte 13
-LDIFF_SYM621=LTDIE_102 - Ldebug_info_start
-	.long LDIFF_SYM621
-LTDIE_102_REFERENCE:
-
-	.byte 14
-LDIFF_SYM622=LTDIE_102 - Ldebug_info_start
-	.long LDIFF_SYM622
-LTDIE_101:
-
-	.byte 5
-	.asciz "Xamarin_Forms_ElementCollection`1"
-
-	.byte 40,16
-LDIFF_SYM623=LTDIE_102 - Ldebug_info_start
-	.long LDIFF_SYM623
-	.byte 2,35,0,0,7
-	.asciz "Xamarin_Forms_ElementCollection`1"
-
-LDIFF_SYM624=LTDIE_101 - Ldebug_info_start
-	.long LDIFF_SYM624
-LTDIE_101_POINTER:
-
-	.byte 13
-LDIFF_SYM625=LTDIE_101 - Ldebug_info_start
-	.long LDIFF_SYM625
-LTDIE_101_REFERENCE:
-
-	.byte 14
-LDIFF_SYM626=LTDIE_101 - Ldebug_info_start
-	.long LDIFF_SYM626
-LTDIE_99:
-
-	.byte 5
-	.asciz "Xamarin_Forms_Layout`1"
-
-	.byte 200,2,16
-LDIFF_SYM627=LTDIE_100 - Ldebug_info_start
-	.long LDIFF_SYM627
-	.byte 2,35,0,6
-	.asciz "children"
-
-LDIFF_SYM628=LTDIE_101_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM628
-	.byte 3,35,192,2,0,7
-	.asciz "Xamarin_Forms_Layout`1"
-
-LDIFF_SYM629=LTDIE_99 - Ldebug_info_start
-	.long LDIFF_SYM629
 LTDIE_99_POINTER:
 
 	.byte 13
-LDIFF_SYM630=LTDIE_99 - Ldebug_info_start
-	.long LDIFF_SYM630
+LDIFF_SYM614=LTDIE_99 - Ldebug_info_start
+	.long LDIFF_SYM614
 LTDIE_99_REFERENCE:
 
 	.byte 14
-LDIFF_SYM631=LTDIE_99 - Ldebug_info_start
-	.long LDIFF_SYM631
-LTDIE_104:
-
-	.byte 17
-	.asciz "System_Collections_Generic_IEqualityComparer`1"
-
-	.byte 16,7
-	.asciz "System_Collections_Generic_IEqualityComparer`1"
-
-LDIFF_SYM632=LTDIE_104 - Ldebug_info_start
-	.long LDIFF_SYM632
-LTDIE_104_POINTER:
-
-	.byte 13
-LDIFF_SYM633=LTDIE_104 - Ldebug_info_start
-	.long LDIFF_SYM633
-LTDIE_104_REFERENCE:
-
-	.byte 14
-LDIFF_SYM634=LTDIE_104 - Ldebug_info_start
-	.long LDIFF_SYM634
-LTDIE_105:
-
-	.byte 5
-	.asciz "_KeyCollection"
-
-	.byte 24,16
-LDIFF_SYM635=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM635
-	.byte 2,35,0,6
-	.asciz "dictionary"
-
-LDIFF_SYM636=LTDIE_103_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM636
-	.byte 2,35,16,0,7
-	.asciz "_KeyCollection"
-
-LDIFF_SYM637=LTDIE_105 - Ldebug_info_start
-	.long LDIFF_SYM637
-LTDIE_105_POINTER:
-
-	.byte 13
-LDIFF_SYM638=LTDIE_105 - Ldebug_info_start
-	.long LDIFF_SYM638
-LTDIE_105_REFERENCE:
-
-	.byte 14
-LDIFF_SYM639=LTDIE_105 - Ldebug_info_start
-	.long LDIFF_SYM639
-LTDIE_106:
-
-	.byte 5
-	.asciz "_ValueCollection"
-
-	.byte 24,16
-LDIFF_SYM640=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM640
-	.byte 2,35,0,6
-	.asciz "dictionary"
-
-LDIFF_SYM641=LTDIE_103_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM641
-	.byte 2,35,16,0,7
-	.asciz "_ValueCollection"
-
-LDIFF_SYM642=LTDIE_106 - Ldebug_info_start
-	.long LDIFF_SYM642
-LTDIE_106_POINTER:
-
-	.byte 13
-LDIFF_SYM643=LTDIE_106 - Ldebug_info_start
-	.long LDIFF_SYM643
-LTDIE_106_REFERENCE:
-
-	.byte 14
-LDIFF_SYM644=LTDIE_106 - Ldebug_info_start
-	.long LDIFF_SYM644
-LTDIE_103:
-
-	.byte 5
-	.asciz "System_Collections_Generic_Dictionary`2"
-
-	.byte 80,16
-LDIFF_SYM645=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM645
-	.byte 2,35,0,6
-	.asciz "buckets"
-
-LDIFF_SYM646=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM646
-	.byte 2,35,16,6
-	.asciz "entries"
-
-LDIFF_SYM647=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM647
-	.byte 2,35,24,6
-	.asciz "count"
-
-LDIFF_SYM648=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM648
-	.byte 2,35,64,6
-	.asciz "version"
-
-LDIFF_SYM649=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM649
-	.byte 2,35,68,6
-	.asciz "freeList"
-
-LDIFF_SYM650=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM650
-	.byte 2,35,72,6
-	.asciz "freeCount"
-
-LDIFF_SYM651=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM651
-	.byte 2,35,76,6
-	.asciz "comparer"
-
-LDIFF_SYM652=LTDIE_104_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM652
-	.byte 2,35,32,6
-	.asciz "keys"
-
-LDIFF_SYM653=LTDIE_105_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM653
-	.byte 2,35,40,6
-	.asciz "values"
-
-LDIFF_SYM654=LTDIE_106_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM654
-	.byte 2,35,48,6
-	.asciz "_syncRoot"
-
-LDIFF_SYM655=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM655
-	.byte 2,35,56,0,7
-	.asciz "System_Collections_Generic_Dictionary`2"
-
-LDIFF_SYM656=LTDIE_103 - Ldebug_info_start
-	.long LDIFF_SYM656
-LTDIE_103_POINTER:
-
-	.byte 13
-LDIFF_SYM657=LTDIE_103 - Ldebug_info_start
-	.long LDIFF_SYM657
-LTDIE_103_REFERENCE:
-
-	.byte 14
-LDIFF_SYM658=LTDIE_103 - Ldebug_info_start
-	.long LDIFF_SYM658
-LTDIE_107:
-
-	.byte 5
-	.asciz "_LayoutInformation"
-
-	.byte 112,16
-LDIFF_SYM659=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM659
-	.byte 2,35,0,6
-	.asciz "Constraint"
-
-LDIFF_SYM660=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM660
-	.byte 2,35,32,6
-	.asciz "Plots"
-
-LDIFF_SYM661=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM661
-	.byte 2,35,16,6
-	.asciz "Requests"
-
-LDIFF_SYM662=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM662
-	.byte 2,35,24,6
-	.asciz "Bounds"
-
-LDIFF_SYM663=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM663
-	.byte 2,35,48,6
-	.asciz "MinimumSize"
-
-LDIFF_SYM664=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM664
-	.byte 2,35,80,6
-	.asciz "CompressionSpace"
-
-LDIFF_SYM665=LDIE_R8 - Ldebug_info_start
-	.long LDIFF_SYM665
-	.byte 2,35,96,6
-	.asciz "Expanders"
-
-LDIFF_SYM666=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM666
-	.byte 2,35,104,0,7
-	.asciz "_LayoutInformation"
-
-LDIFF_SYM667=LTDIE_107 - Ldebug_info_start
-	.long LDIFF_SYM667
-LTDIE_107_POINTER:
-
-	.byte 13
-LDIFF_SYM668=LTDIE_107 - Ldebug_info_start
-	.long LDIFF_SYM668
-LTDIE_107_REFERENCE:
-
-	.byte 14
-LDIFF_SYM669=LTDIE_107 - Ldebug_info_start
-	.long LDIFF_SYM669
+LDIFF_SYM615=LTDIE_99 - Ldebug_info_start
+	.long LDIFF_SYM615
 LTDIE_98:
 
 	.byte 5
-	.asciz "Xamarin_Forms_StackLayout"
+	.asciz "Xamarin_Forms_ContentView"
 
-	.byte 216,2,16
-LDIFF_SYM670=LTDIE_99 - Ldebug_info_start
-	.long LDIFF_SYM670
+	.byte 200,2,16
+LDIFF_SYM616=LTDIE_99 - Ldebug_info_start
+	.long LDIFF_SYM616
 	.byte 2,35,0,6
-	.asciz "measureCache"
+	.asciz "content"
 
-LDIFF_SYM671=LTDIE_103_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM671
-	.byte 3,35,200,2,6
-	.asciz "layoutInformation"
+LDIFF_SYM617=LTDIE_87_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM617
+	.byte 3,35,192,2,0,7
+	.asciz "Xamarin_Forms_ContentView"
 
-LDIFF_SYM672=LTDIE_107_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM672
-	.byte 3,35,208,2,0,7
-	.asciz "Xamarin_Forms_StackLayout"
-
-LDIFF_SYM673=LTDIE_98 - Ldebug_info_start
-	.long LDIFF_SYM673
+LDIFF_SYM618=LTDIE_98 - Ldebug_info_start
+	.long LDIFF_SYM618
 LTDIE_98_POINTER:
 
 	.byte 13
-LDIFF_SYM674=LTDIE_98 - Ldebug_info_start
-	.long LDIFF_SYM674
+LDIFF_SYM619=LTDIE_98 - Ldebug_info_start
+	.long LDIFF_SYM619
 LTDIE_98_REFERENCE:
 
 	.byte 14
-LDIFF_SYM675=LTDIE_98 - Ldebug_info_start
-	.long LDIFF_SYM675
-LTDIE_108:
-
-	.byte 5
-	.asciz "Xamarin_Forms_Label"
-
-	.byte 168,2,16
-LDIFF_SYM676=LTDIE_87 - Ldebug_info_start
-	.long LDIFF_SYM676
-	.byte 2,35,0,6
-	.asciz "cancelEvents"
-
-LDIFF_SYM677=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM677
-	.byte 3,35,160,2,0,7
-	.asciz "Xamarin_Forms_Label"
-
-LDIFF_SYM678=LTDIE_108 - Ldebug_info_start
-	.long LDIFF_SYM678
-LTDIE_108_POINTER:
-
-	.byte 13
-LDIFF_SYM679=LTDIE_108 - Ldebug_info_start
-	.long LDIFF_SYM679
-LTDIE_108_REFERENCE:
-
-	.byte 14
-LDIFF_SYM680=LTDIE_108 - Ldebug_info_start
-	.long LDIFF_SYM680
+LDIFF_SYM620=LTDIE_98 - Ldebug_info_start
+	.long LDIFF_SYM620
 	.byte 2
 	.asciz "mnsuse.WebViewDemoPage:.ctor"
 	.asciz "mnsuse_WebViewDemoPage__ctor"
@@ -7606,696 +5027,56 @@ LDIFF_SYM680=LTDIE_108 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM681=LTDIE_85_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM681
+LDIFF_SYM621=LTDIE_85_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM621
 	.byte 1,106,11
 	.asciz "mnsuse"
 
-LDIFF_SYM682=LTDIE_92_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM682
+LDIFF_SYM622=LTDIE_92_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM622
 	.byte 1,105,11
 	.asciz "V_1"
 
-LDIFF_SYM683=LTDIE_92_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM683
+LDIFF_SYM623=LTDIE_92_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM623
 	.byte 1,104,11
 	.asciz "V_2"
 
-LDIFF_SYM684=LTDIE_96_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM684
+LDIFF_SYM624=LTDIE_96_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM624
 	.byte 1,103,11
 	.asciz "V_3"
 
-LDIFF_SYM685=LTDIE_98_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM685
-	.byte 1,102,11
-	.asciz "V_4"
-
-LDIFF_SYM686=LTDIE_108_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM686
-	.byte 1,101,0
+LDIFF_SYM625=LTDIE_98_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM625
+	.byte 1,102,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM687=Lfde8_end - Lfde8_start
-	.long LDIFF_SYM687
+LDIFF_SYM626=Lfde8_end - Lfde8_start
+	.long LDIFF_SYM626
 Lfde8_start:
 
 	.long 0
 	.align 3
 	.quad mnsuse_WebViewDemoPage__ctor
 
-LDIFF_SYM688=Lme_8 - mnsuse_WebViewDemoPage__ctor
-	.long LDIFF_SYM688
+LDIFF_SYM627=Lme_8 - mnsuse_WebViewDemoPage__ctor
+	.long LDIFF_SYM627
 	.long 0
-	.byte 12,31,0,68,14,208,3,157,58,158,57,68,13,29,68,149,56,150,55,68,151,54,152,53,68,153,52,154,51
+	.byte 12,31,0,68,14,240,1,157,30,158,29,68,13,29,68,150,28,151,27,68,152,26,153,25,68,154,24
 	.align 3
 Lfde8_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_109:
-
-	.byte 5
-	.asciz "System_Array"
-
-	.byte 16,16
-LDIFF_SYM689=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM689
-	.byte 2,35,0,0,7
-	.asciz "System_Array"
-
-LDIFF_SYM690=LTDIE_109 - Ldebug_info_start
-	.long LDIFF_SYM690
-LTDIE_109_POINTER:
-
-	.byte 13
-LDIFF_SYM691=LTDIE_109 - Ldebug_info_start
-	.long LDIFF_SYM691
-LTDIE_109_REFERENCE:
-
-	.byte 14
-LDIFF_SYM692=LTDIE_109 - Ldebug_info_start
-	.long LDIFF_SYM692
-	.byte 2
-	.asciz "System.Array:InternalArray__IEnumerable_GetEnumerator<T>"
-	.asciz "System_Array_InternalArray__IEnumerable_GetEnumerator_T"
-
-	.byte 5,78
-	.quad System_Array_InternalArray__IEnumerable_GetEnumerator_T
-	.quad Lme_a
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM693=LTDIE_109_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM693
-	.byte 2,141,16,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM694=Lfde9_end - Lfde9_start
-	.long LDIFF_SYM694
-Lfde9_start:
-
-	.long 0
-	.align 3
-	.quad System_Array_InternalArray__IEnumerable_GetEnumerator_T
-
-LDIFF_SYM695=Lme_a - System_Array_InternalArray__IEnumerable_GetEnumerator_T
-	.long LDIFF_SYM695
-	.long 0
-	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29
-	.align 3
-Lfde9_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "System.Array:InternalArray__Insert<T>"
-	.asciz "System_Array_InternalArray__Insert_T_int_T"
-
-	.byte 5,160,1
-	.quad System_Array_InternalArray__Insert_T_int_T
-	.quad Lme_b
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM696=LTDIE_109_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM696
-	.byte 2,141,16,3
-	.asciz "index"
-
-LDIFF_SYM697=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM697
-	.byte 2,141,24,3
-	.asciz "item"
-
-LDIFF_SYM698=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM698
-	.byte 2,141,32,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM699=Lfde10_end - Lfde10_start
-	.long LDIFF_SYM699
-Lfde10_start:
-
-	.long 0
-	.align 3
-	.quad System_Array_InternalArray__Insert_T_int_T
-
-LDIFF_SYM700=Lme_b - System_Array_InternalArray__Insert_T_int_T
-	.long LDIFF_SYM700
-	.long 0
-	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29
-	.align 3
-Lfde10_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "System.Array:InternalArray__RemoveAt"
-	.asciz "System_Array_InternalArray__RemoveAt_int"
-
-	.byte 5,165,1
-	.quad System_Array_InternalArray__RemoveAt_int
-	.quad Lme_c
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM701=LTDIE_109_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM701
-	.byte 2,141,16,3
-	.asciz "index"
-
-LDIFF_SYM702=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM702
-	.byte 2,141,24,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM703=Lfde11_end - Lfde11_start
-	.long LDIFF_SYM703
-Lfde11_start:
-
-	.long 0
-	.align 3
-	.quad System_Array_InternalArray__RemoveAt_int
-
-LDIFF_SYM704=Lme_c - System_Array_InternalArray__RemoveAt_int
-	.long LDIFF_SYM704
-	.long 0
-	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
-	.align 3
-Lfde11_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "System.Array:InternalArray__IndexOf<T>"
-	.asciz "System_Array_InternalArray__IndexOf_T_T"
-
-	.byte 5,170,1
-	.quad System_Array_InternalArray__IndexOf_T_T
-	.quad Lme_d
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM705=LTDIE_109_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM705
-	.byte 1,106,3
-	.asciz "item"
-
-LDIFF_SYM706=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM706
-	.byte 2,141,56,11
-	.asciz "length"
-
-LDIFF_SYM707=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM707
-	.byte 1,104,11
-	.asciz "i"
-
-LDIFF_SYM708=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM708
-	.byte 1,103,11
-	.asciz "value"
-
-LDIFF_SYM709=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM709
-	.byte 3,141,232,0,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM710=Lfde12_end - Lfde12_start
-	.long LDIFF_SYM710
-Lfde12_start:
-
-	.long 0
-	.align 3
-	.quad System_Array_InternalArray__IndexOf_T_T
-
-LDIFF_SYM711=Lme_d - System_Array_InternalArray__IndexOf_T_T
-	.long LDIFF_SYM711
-	.long 0
-	.byte 12,31,0,68,14,176,1,157,22,158,21,68,13,29,68,148,20,149,19,68,151,18,152,17,68,154,16
-	.align 3
-Lfde12_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "System.Array:InternalArray__get_Item<T>"
-	.asciz "System_Array_InternalArray__get_Item_T_int"
-
-	.byte 5,197,1
-	.quad System_Array_InternalArray__get_Item_T_int
-	.quad Lme_e
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM712=LTDIE_109_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM712
-	.byte 1,105,3
-	.asciz "index"
-
-LDIFF_SYM713=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM713
-	.byte 1,106,11
-	.asciz "value"
-
-LDIFF_SYM714=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM714
-	.byte 3,141,200,0,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM715=Lfde13_end - Lfde13_start
-	.long LDIFF_SYM715
-Lfde13_start:
-
-	.long 0
-	.align 3
-	.quad System_Array_InternalArray__get_Item_T_int
-
-LDIFF_SYM716=Lme_e - System_Array_InternalArray__get_Item_T_int
-	.long LDIFF_SYM716
-	.long 0
-	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,153,10,154,9
-	.align 3
-Lfde13_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "System.Array:InternalArray__set_Item<T>"
-	.asciz "System_Array_InternalArray__set_Item_T_int_T"
-
-	.byte 5,207,1
-	.quad System_Array_InternalArray__set_Item_T_int_T
-	.quad Lme_f
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM717=LTDIE_109_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM717
-	.byte 1,105,3
-	.asciz "index"
-
-LDIFF_SYM718=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM718
-	.byte 1,106,3
-	.asciz "item"
-
-LDIFF_SYM719=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM719
-	.byte 3,141,200,0,11
-	.asciz "oarray"
-
-LDIFF_SYM720=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM720
-	.byte 1,103,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM721=Lfde14_end - Lfde14_start
-	.long LDIFF_SYM721
-Lfde14_start:
-
-	.long 0
-	.align 3
-	.quad System_Array_InternalArray__set_Item_T_int_T
-
-LDIFF_SYM722=Lme_f - System_Array_InternalArray__set_Item_T_int_T
-	.long LDIFF_SYM722
-	.long 0
-	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,147,16,148,15,68,149,14,150,13,68,151,12,68,153,11,154,10
-	.align 3
-Lfde14_end:
-
-.section __DWARF, __debug_info,regular,debug
-LTDIE_110:
-
-	.byte 5
-	.asciz "System_Func`2"
-
-	.byte 104,16
-LDIFF_SYM723=LTDIE_14 - Ldebug_info_start
-	.long LDIFF_SYM723
-	.byte 2,35,0,0,7
-	.asciz "System_Func`2"
-
-LDIFF_SYM724=LTDIE_110 - Ldebug_info_start
-	.long LDIFF_SYM724
-LTDIE_110_POINTER:
-
-	.byte 13
-LDIFF_SYM725=LTDIE_110 - Ldebug_info_start
-	.long LDIFF_SYM725
-LTDIE_110_REFERENCE:
-
-	.byte 14
-LDIFF_SYM726=LTDIE_110 - Ldebug_info_start
-	.long LDIFF_SYM726
-	.byte 2
-	.asciz "(wrapper delegate-invoke) System.Func`2<Xamarin.Forms.Element, bool>:invoke_TResult_T"
-	.asciz "wrapper_delegate_invoke_System_Func_2_Xamarin_Forms_Element_bool_invoke_TResult_T_Xamarin_Forms_Element"
-
-	.byte 0,0
-	.quad wrapper_delegate_invoke_System_Func_2_Xamarin_Forms_Element_bool_invoke_TResult_T_Xamarin_Forms_Element
-	.quad Lme_14
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM727=LTDIE_110_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM727
-	.byte 1,105,3
-	.asciz "param0"
-
-LDIFF_SYM728=LTDIE_11_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM728
-	.byte 1,106,11
-	.asciz "V_0"
-
-LDIFF_SYM729=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM729
-	.byte 1,104,11
-	.asciz "V_1"
-
-LDIFF_SYM730=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM730
-	.byte 1,103,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM731=Lfde15_end - Lfde15_start
-	.long LDIFF_SYM731
-Lfde15_start:
-
-	.long 0
-	.align 3
-	.quad wrapper_delegate_invoke_System_Func_2_Xamarin_Forms_Element_bool_invoke_TResult_T_Xamarin_Forms_Element
-
-LDIFF_SYM732=Lme_14 - wrapper_delegate_invoke_System_Func_2_Xamarin_Forms_Element_bool_invoke_TResult_T_Xamarin_Forms_Element
-	.long LDIFF_SYM732
-	.long 0
-	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,149,10,150,9,68,151,8,152,7,68,153,6,154,5
-	.align 3
-Lfde15_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "System.Array:InternalArray__ICollection_get_Count"
-	.asciz "System_Array_InternalArray__ICollection_get_Count"
-
-	.byte 5,68
-	.quad System_Array_InternalArray__ICollection_get_Count
-	.quad Lme_15
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM733=LTDIE_109_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM733
-	.byte 2,141,16,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM734=Lfde16_end - Lfde16_start
-	.long LDIFF_SYM734
-Lfde16_start:
-
-	.long 0
-	.align 3
-	.quad System_Array_InternalArray__ICollection_get_Count
-
-LDIFF_SYM735=Lme_15 - System_Array_InternalArray__ICollection_get_Count
-	.long LDIFF_SYM735
-	.long 0
-	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
-	.align 3
-Lfde16_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "System.Array:InternalArray__ICollection_get_IsReadOnly"
-	.asciz "System_Array_InternalArray__ICollection_get_IsReadOnly"
-
-	.byte 5,73
-	.quad System_Array_InternalArray__ICollection_get_IsReadOnly
-	.quad Lme_16
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM736=LTDIE_109_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM736
-	.byte 2,141,16,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM737=Lfde17_end - Lfde17_start
-	.long LDIFF_SYM737
-Lfde17_start:
-
-	.long 0
-	.align 3
-	.quad System_Array_InternalArray__ICollection_get_IsReadOnly
-
-LDIFF_SYM738=Lme_16 - System_Array_InternalArray__ICollection_get_IsReadOnly
-	.long LDIFF_SYM738
-	.long 0
-	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
-	.align 3
-Lfde17_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "System.Array:InternalArray__ICollection_Clear"
-	.asciz "System_Array_InternalArray__ICollection_Clear"
-
-	.byte 5,83
-	.quad System_Array_InternalArray__ICollection_Clear
-	.quad Lme_17
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM739=LTDIE_109_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM739
-	.byte 2,141,16,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM740=Lfde18_end - Lfde18_start
-	.long LDIFF_SYM740
-Lfde18_start:
-
-	.long 0
-	.align 3
-	.quad System_Array_InternalArray__ICollection_Clear
-
-LDIFF_SYM741=Lme_17 - System_Array_InternalArray__ICollection_Clear
-	.long LDIFF_SYM741
-	.long 0
-	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
-	.align 3
-Lfde18_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "System.Array:InternalArray__ICollection_Add<T>"
-	.asciz "System_Array_InternalArray__ICollection_Add_T_T"
-
-	.byte 5,88
-	.quad System_Array_InternalArray__ICollection_Add_T_T
-	.quad Lme_18
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM742=LTDIE_109_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM742
-	.byte 2,141,16,3
-	.asciz "item"
-
-LDIFF_SYM743=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM743
-	.byte 2,141,24,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM744=Lfde19_end - Lfde19_start
-	.long LDIFF_SYM744
-Lfde19_start:
-
-	.long 0
-	.align 3
-	.quad System_Array_InternalArray__ICollection_Add_T_T
-
-LDIFF_SYM745=Lme_18 - System_Array_InternalArray__ICollection_Add_T_T
-	.long LDIFF_SYM745
-	.long 0
-	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29
-	.align 3
-Lfde19_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "System.Array:InternalArray__ICollection_Remove<T>"
-	.asciz "System_Array_InternalArray__ICollection_Remove_T_T"
-
-	.byte 5,93
-	.quad System_Array_InternalArray__ICollection_Remove_T_T
-	.quad Lme_19
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM746=LTDIE_109_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM746
-	.byte 2,141,16,3
-	.asciz "item"
-
-LDIFF_SYM747=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM747
-	.byte 2,141,24,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM748=Lfde20_end - Lfde20_start
-	.long LDIFF_SYM748
-Lfde20_start:
-
-	.long 0
-	.align 3
-	.quad System_Array_InternalArray__ICollection_Remove_T_T
-
-LDIFF_SYM749=Lme_19 - System_Array_InternalArray__ICollection_Remove_T_T
-	.long LDIFF_SYM749
-	.long 0
-	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29
-	.align 3
-Lfde20_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "System.Array:InternalArray__ICollection_Contains<T>"
-	.asciz "System_Array_InternalArray__ICollection_Contains_T_T"
-
-	.byte 5,98
-	.quad System_Array_InternalArray__ICollection_Contains_T_T
-	.quad Lme_1a
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM750=LTDIE_109_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM750
-	.byte 1,106,3
-	.asciz "item"
-
-LDIFF_SYM751=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM751
-	.byte 2,141,40,11
-	.asciz "length"
-
-LDIFF_SYM752=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM752
-	.byte 1,104,11
-	.asciz "i"
-
-LDIFF_SYM753=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM753
-	.byte 1,103,11
-	.asciz "value"
-
-LDIFF_SYM754=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM754
-	.byte 3,141,216,0,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM755=Lfde21_end - Lfde21_start
-	.long LDIFF_SYM755
-Lfde21_start:
-
-	.long 0
-	.align 3
-	.quad System_Array_InternalArray__ICollection_Contains_T_T
-
-LDIFF_SYM756=Lme_1a - System_Array_InternalArray__ICollection_Contains_T_T
-	.long LDIFF_SYM756
-	.long 0
-	.byte 12,31,0,68,14,112,157,14,158,13,68,13,29,68,151,12,152,11,68,154,10
-	.align 3
-Lfde21_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "System.Array:InternalArray__ICollection_CopyTo<T>"
-	.asciz "System_Array_InternalArray__ICollection_CopyTo_T_T___int"
-
-	.byte 5,123
-	.quad System_Array_InternalArray__ICollection_CopyTo_T_T___int
-	.quad Lme_1b
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM757=LTDIE_109_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM757
-	.byte 1,104,3
-	.asciz "array"
-
-LDIFF_SYM758=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM758
-	.byte 1,105,3
-	.asciz "index"
-
-LDIFF_SYM759=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM759
-	.byte 3,141,192,0,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM760=Lfde22_end - Lfde22_start
-	.long LDIFF_SYM760
-Lfde22_start:
-
-	.long 0
-	.align 3
-	.quad System_Array_InternalArray__ICollection_CopyTo_T_T___int
-
-LDIFF_SYM761=Lme_1b - System_Array_InternalArray__ICollection_CopyTo_T_T___int
-	.long LDIFF_SYM761
-	.long 0
-	.byte 12,31,0,68,14,240,1,157,30,158,29,68,13,29,68,147,28,148,27,68,149,26,68,152,25,153,24,68,154,23
-	.align 3
-Lfde22_end:
-
-.section __DWARF, __debug_info,regular,debug
-LTDIE_111:
+LTDIE_100:
 
 	.byte 8
 	.asciz "Xamarin_Forms_TargetPlatform"
 
 	.byte 4
-LDIFF_SYM762=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM762
+LDIFF_SYM628=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM628
 	.byte 9
 	.asciz "Other"
 
@@ -8314,64 +5095,64 @@ LDIFF_SYM762=LDIE_I4 - Ldebug_info_start
 	.byte 4,0,7
 	.asciz "Xamarin_Forms_TargetPlatform"
 
-LDIFF_SYM763=LTDIE_111 - Ldebug_info_start
-	.long LDIFF_SYM763
-LTDIE_111_POINTER:
+LDIFF_SYM629=LTDIE_100 - Ldebug_info_start
+	.long LDIFF_SYM629
+LTDIE_100_POINTER:
 
 	.byte 13
-LDIFF_SYM764=LTDIE_111 - Ldebug_info_start
-	.long LDIFF_SYM764
-LTDIE_111_REFERENCE:
+LDIFF_SYM630=LTDIE_100 - Ldebug_info_start
+	.long LDIFF_SYM630
+LTDIE_100_REFERENCE:
 
 	.byte 14
-LDIFF_SYM765=LTDIE_111 - Ldebug_info_start
-	.long LDIFF_SYM765
+LDIFF_SYM631=LTDIE_100 - Ldebug_info_start
+	.long LDIFF_SYM631
 	.byte 2
 	.asciz "Xamarin.Forms.Device:OnPlatform<int>"
 	.asciz "Xamarin_Forms_Device_OnPlatform_int_int_int_int"
 
 	.byte 0,0
 	.quad Xamarin_Forms_Device_OnPlatform_int_int_int_int
-	.quad Lme_1c
+	.quad Lme_a
 
 	.byte 2,118,16,3
 	.asciz "iOS"
 
-LDIFF_SYM766=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM766
+LDIFF_SYM632=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM632
 	.byte 1,104,3
 	.asciz "Android"
 
-LDIFF_SYM767=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM767
+LDIFF_SYM633=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM633
 	.byte 2,141,40,3
 	.asciz "WinPhone"
 
-LDIFF_SYM768=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM768
+LDIFF_SYM634=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM634
 	.byte 2,141,48,11
 	.asciz "V_0"
 
-LDIFF_SYM769=LTDIE_111 - Ldebug_info_start
-	.long LDIFF_SYM769
+LDIFF_SYM635=LTDIE_100 - Ldebug_info_start
+	.long LDIFF_SYM635
 	.byte 1,103,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM770=Lfde23_end - Lfde23_start
-	.long LDIFF_SYM770
-Lfde23_start:
+LDIFF_SYM636=Lfde9_end - Lfde9_start
+	.long LDIFF_SYM636
+Lfde9_start:
 
 	.long 0
 	.align 3
 	.quad Xamarin_Forms_Device_OnPlatform_int_int_int_int
 
-LDIFF_SYM771=Lme_1c - Xamarin_Forms_Device_OnPlatform_int_int_int_int
-	.long LDIFF_SYM771
+LDIFF_SYM637=Lme_a - Xamarin_Forms_Device_OnPlatform_int_int_int_int
+	.long LDIFF_SYM637
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,150,10,151,9,68,152,8
 	.align 3
-Lfde23_end:
+Lfde9_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -8388,7 +5169,6 @@ Ldebug_line_start:
 .section __DWARF, __debug_line,regular,debug
 	.asciz "/Users/ua4225pe/Projects/mnsuse/iOS"
 	.asciz "/Users/ua4225pe/Projects/mnsuse/mnsuse"
-	.asciz "/Users/builder/data/lanes/1503/6481535e/source/mono/mcs/class/corlib/System"
 
 	.byte 0
 	.asciz "Main.cs"
@@ -8403,9 +5183,6 @@ Ldebug_line_start:
 	.asciz "WebViewDemoPage.cs"
 
 	.byte 2,0,0
-	.asciz "Array.cs"
-
-	.byte 3,0,0
 	.asciz "<unknown>"
 
 	.byte 0,0,0,0
@@ -8452,97 +5229,9 @@ Ldebug_line_header_end:
 	.byte 0,9,2
 	.quad mnsuse_WebViewDemoPage__ctor
 
-	.byte 4,4,1,10,3,7,2,196,0,1,3,1,2,36,1,3,10,2,16,1,3,2,2,192,0,1,3,3,2,216,0,1
-	.byte 3,125,2,220,0,1,3,5,2,36,1,3,1,2,216,0,1,3,4,2,240,0,1,3,3,2,192,2,1,3,2,2
-	.byte 212,0,1,8,59,8,229,3,1,2,192,0,1,3,1,2,196,0,1,3,1,2,192,0,1,3,1,2,148,1,1,3
-	.byte 124,2,172,1,1,3,7,2,60,1,3,120,2,24,1,3,8,2,60,1,3,119,2,212,0,1,3,12,2,28,1,2
-	.byte 56,1,0,1,1
-.section __DWARF, __debug_line,regular,debug
-
-	.byte 0,9,2
-	.quad System_Array_InternalArray__IEnumerable_GetEnumerator_T
-
-	.byte 4,5,1,10,3,205,0,2,48,1,2,160,2,1,0,1,1
-.section __DWARF, __debug_line,regular,debug
-
-	.byte 0,9,2
-	.quad System_Array_InternalArray__Insert_T_int_T
-
-	.byte 4,5,1,10,3,159,1,2,56,1,2,140,1,1,0,1,1
-.section __DWARF, __debug_line,regular,debug
-
-	.byte 0,9,2
-	.quad System_Array_InternalArray__RemoveAt_int
-
-	.byte 4,5,1,10,3,164,1,2,60,1,2,228,0,1,0,1,1
-.section __DWARF, __debug_line,regular,debug
-
-	.byte 0,9,2
-	.quad System_Array_InternalArray__IndexOf_T_T
-
-	.byte 4,5,1,10,3,169,1,2,192,0,1,3,1,2,252,0,1,3,2,2,216,0,1,3,1,2,60,1,8,118,3,1
-	.byte 2,204,0,1,8,117,8,117,3,2,2,232,0,1,8,62,3,3,2,204,0,1,3,116,2,208,0,1,3,17,2,204
-	.byte 0,1,2,132,1,1,0,1,1
-.section __DWARF, __debug_line,regular,debug
-
-	.byte 0,9,2
-	.quad System_Array_InternalArray__get_Item_T_int
-
-	.byte 4,5,1,10,3,196,1,2,56,1,3,1,2,248,0,1,3,3,2,56,1,3,1,2,204,0,1,2,52,1,0,1
-	.byte 1
-.section __DWARF, __debug_line,regular,debug
-
-	.byte 0,9,2
-	.quad System_Array_InternalArray__set_Item_T_int_T
-
-	.byte 4,5,1,10,3,206,1,2,200,0,1,3,1,2,244,0,1,3,2,2,56,1,3,1,2,240,0,1,8,117,3,1
-	.byte 2,48,1,8,62,2,136,1,1,0,1,1
-.section __DWARF, __debug_line,regular,debug
-
-	.byte 0,9,2
-	.quad System_Array_InternalArray__ICollection_get_Count
-
-	.byte 4,5,1,10,3,195,0,2,56,1,2,216,0,1,0,1,1
-.section __DWARF, __debug_line,regular,debug
-
-	.byte 0,9,2
-	.quad System_Array_InternalArray__ICollection_get_IsReadOnly
-
-	.byte 4,5,1,10,3,200,0,2,56,1,2,60,1,0,1,1
-.section __DWARF, __debug_line,regular,debug
-
-	.byte 0,9,2
-	.quad System_Array_InternalArray__ICollection_Clear
-
-	.byte 4,5,1,10,3,210,0,2,56,1,2,228,0,1,0,1,1
-.section __DWARF, __debug_line,regular,debug
-
-	.byte 0,9,2
-	.quad System_Array_InternalArray__ICollection_Add_T_T
-
-	.byte 4,5,1,10,3,215,0,2,52,1,2,140,1,1,0,1,1
-.section __DWARF, __debug_line,regular,debug
-
-	.byte 0,9,2
-	.quad System_Array_InternalArray__ICollection_Remove_T_T
-
-	.byte 4,5,1,10,3,220,0,2,52,1,2,140,1,1,0,1,1
-.section __DWARF, __debug_line,regular,debug
-
-	.byte 0,9,2
-	.quad System_Array_InternalArray__ICollection_Contains_T_T
-
-	.byte 4,5,1,10,3,225,0,2,60,1,3,1,2,252,0,1,3,2,2,216,0,1,3,1,2,60,1,8,118,3,1,2
-	.byte 204,0,1,8,117,8,117,8,175,8,63,3,1,2,204,0,1,3,116,2,28,1,3,16,2,204,0,1,2,60,1,0
-	.byte 1,1
-.section __DWARF, __debug_line,regular,debug
-
-	.byte 0,9,2
-	.quad System_Array_InternalArray__ICollection_CopyTo_T_T___int
-
-	.byte 4,5,1,10,3,250,0,2,200,0,1,3,1,2,200,0,1,3,4,2,56,1,3,1,2,200,0,1,3,1,2,216
-	.byte 0,1,3,1,2,240,1,1,3,3,2,192,0,1,3,1,2,204,0,1,3,1,2,216,0,1,8,229,3,3,2,236
-	.byte 0,1,2,136,2,1,0,1,1,0,1,1
+	.byte 4,4,1,10,3,7,2,196,0,1,3,1,2,36,1,243,3,2,2,192,0,1,3,2,2,216,0,1,3,126,2,220
+	.byte 0,1,3,4,2,36,1,3,4,2,240,0,1,3,3,2,192,2,1,3,1,2,212,0,1,3,127,2,212,0,1,8
+	.byte 175,2,56,1,0,1,1,0,1,1
 Ldebug_line_end:
 .text
 	.align 3

@@ -35,3 +35,4 @@
 /Users/ua4225pe/Projects/mnsuse/iOS/bin/iPhoneSimulator/Debug/mnsuse.iOS.exe
 /Users/ua4225pe/Projects/mnsuse/iOS/obj/iPhoneSimulator/Debug/mnsuse.iOS.exe
 /Users/ua4225pe/Projects/mnsuse/iOS/obj/iPhoneSimulator/Debug/mnsuse.iOS.exe.mdb
+/Users/ua4225pe/Projects/mnsuse/iOS/obj/iPhoneSimulator/Debug/horizontal-black.png

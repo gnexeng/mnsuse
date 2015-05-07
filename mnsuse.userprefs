@@ -1,6 +1,11 @@
 ﻿<Properties StartupItem="iOS/mnsuse.iOS.csproj" GitUserInfo="UsingGIT">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhone" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget.NexusiPhone" />
-  <MonoDevelop.Ide.Workbench />
+  <MonoDevelop.Ide.Workbench>
+    <Files>
+      <File FileName="mnsuse/mnsuse.cs" Line="1" Column="1" />
+      <File FileName="mnsuse/WebViewDemoPage.cs" Line="14" Column="6" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
       <Breakpoint file="/Users/ua4225pe/Projects/mnsuse/Droid/Assets/AboutAssets.txt" line="17" column="1" />
